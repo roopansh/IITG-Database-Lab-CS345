@@ -1,32 +1,24 @@
 USE 09feb2018;
 
--- (a)
-SELECT DISTINCT C.course_id AS 'COURSE ID'
-    FROM Course AS C
-    JOIN ScheduledIn AS S
-    ON (C.course_id = S.course_id and C.division = S.course_division)
+-- (a) ok
+SELECT DISTINCT S.course_id AS 'COURSE ID'
+    FROM ScheduledIn AS S
     WHERE S.room = '2001';
 
--- (b)
-SELECT DISTINCT C.course_id AS 'COURSE ID'
-    FROM Course AS C
-    JOIN ScheduledIn AS S
-    ON (C.course_id = S.course_id and C.division = S.course_division)
+-- (b) NOT OK
+SELECT DISTINCT S.course_id AS 'COURSE ID'
+    FROM ScheduledIn AS S
     WHERE S.slot_letter = 'C';
 
 -- (c)
-SELECT DISTINCT C.division AS 'DIVISION'
-    FROM Course AS C
-    JOIN ScheduledIn AS S
-    ON (C.course_id = S.course_id and C.division = S.course_division)
+SELECT DISTINCT S.course_division AS 'DIVISION'
+    FROM ScheduledIn AS S
     WHERE ( S.room = 'L1' or S.room = 'L2');
 
 -- (d)
-SELECT C.course_id AS 'COURSE ID'
-    FROM Course AS C
-    JOIN ScheduledIn AS S
-    ON (C.course_id = S.course_id and C.division = S.course_division)
-    GROUP BY C.course_id
+SELECT S.course_id AS 'COURSE ID'
+    FROM ScheduledIn AS S
+    GROUP BY S.course_id
     HAVING COUNT(DISTINCT S.room) > 1;
 
 -- (e)
@@ -37,14 +29,18 @@ SELECT DISTINCT Dept.name AS 'DEPARTMENT NAME'
     WHERE (S.room = 'L1' OR S.room = 'L2' OR S.room = 'L3' OR S.room = 'L4');
 
 -- (f)
-SELECT DISTINCT Dept.name AS 'DEPARTMENT NAME'
-    FROM Department AS Dept
-    JOIN ScheduledIn AS S
-    ON (Dept.department_id = S.department)
-    WHERE (S.room != 'L1' AND S.room != 'L2');
+SELECT D1.name AS 'DEPARTMENT NAME'
+    FROM Department as D1
+    WHERE D1.name NOT IN (
+                          SELECT D2.name
+                              FROM Department AS D2
+                              JOIN ScheduledIn AS S
+                              ON (D2.department_id = S.department)
+                              WHERE (S.room = 'L1' OR S.room = 'L2')
+                        );
 
 -- (g)
-SELECT Dept.name AS 'DEPARTMENT NAME'
+SELECT Dept.name AS 'DEPARTMENT NAME', COUNT(DISTINCT S.slot_letter) AS 'COUNT'
     FROM Department AS Dept
     JOIN ScheduledIn AS S
     ON (Dept.department_id = S.department)
@@ -52,19 +48,19 @@ SELECT Dept.name AS 'DEPARTMENT NAME'
     HAVING COUNT(DISTINCT S.slot_letter) = (SELECT COUNT(DISTINCT slot.letter) FROM Slot AS slot);
 
 -- (h)
-SELECT S.slot_letter AS 'SLOT', COUNT(DISTINCT S.course_id) AS 'NUMBER OF COURSES'
+SELECT S.slot_letter AS 'SLOT', COUNT(DISTINCT S.course_id) AS COURSESCOUNT
     FROM ScheduledIn AS S
     GROUP BY S.slot_letter
-    ORDER BY S.slot_letter ASC;
+    ORDER BY COURSESCOUNT ASC;
 
 -- (i)
-SELECT S.room AS 'ROOM NUMBER', COUNT(DISTINCT S.course_id) AS 'NUMBER OF COURSES'
+SELECT S.room AS 'ROOM NUMBER', COUNT(DISTINCT S.course_id) AS COURSESCOUNT
     FROM ScheduledIn AS S
     GROUP BY S.room
-    ORDER BY S.room DESC;
+    ORDER BY COURSESCOUNT DESC;
 
 -- (j)
-SELECT S.slot_letter AS 'SLOT NAME', COUNT(DISTINCT course_id) AS 'COUNT'
+SELECT S.slot_letter AS 'SLOT NAME', COUNT(DISTINCT course_id) AS COUNT
     FROM ScheduledIn AS S
     GROUP BY S.slot_letter
     ORDER BY COUNT asc
@@ -76,7 +72,7 @@ SELECT DISTINCT S.slot_letter AS 'SLOT'
     WHERE S.course_id LIKE '%M';
 
 -- (l) --- NOT WORKING
-SELECT DISTINCT crossProduct.Dept AS 'Dept', crossProduct.Slot AS 'Slot'
+SELECT crossProduct.Dept AS 'Dept', crossProduct.Slot AS 'Slot'
     FROM (
           SELECT dept1.name AS 'Dept', slot1.letter AS 'Slot'
           from Slot AS slot1
