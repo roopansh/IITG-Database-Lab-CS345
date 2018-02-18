@@ -1,6 +1,7 @@
 department_id,name
 BSBE,Bio Science & Bio Engineering
 CE,Chemical Engineering
+CEER,Center for Energy
 CH,Chemistry
 CL,Civil Engineering
 CRT,Center for Rural Technology
@@ -11,3 +12,4 @@ HSS,Humanities & Social Sciences
 MA,Mathematics
 ME,Mechanical Engineering
 PH,Physics
+SAB,Students Academic Board Language Course
