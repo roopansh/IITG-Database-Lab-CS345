@@ -1,59 +1,60 @@
 USE 09feb2018;
 
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A', 'Wednesday', '10:00', '10:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A', 'Thursday', '11:00', '11:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A', 'Monday', '8:00', '8:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A', 'Tuesday', '9:00', '9:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A1', 'Thursday', '14:00', '14:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A1', 'Wednesday', '15:00', '15:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A1', 'Tuesday', '16:00', '16:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('A1', 'Monday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B', 'Tuesday', '10:00', '10:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B', 'Wednesday', '11:00', '11:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B', 'Friday', '8:00', '8:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B', 'Monday', '9:00', '9:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B1', 'Wednesday', '14:00', '14:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B1', 'Tuesday', '15:00', '15:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B1', 'Monday', '16:00', '16:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('B1', 'Friday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C', 'Monday', '10:00', '10:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C', 'Tuesday', '11:00', '11:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C', 'Thursday', '8:00', '8:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C', 'Friday', '9:00', '9:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C1', 'Tuesday', '14:00', '14:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C1', 'Monday', '15:00', '15:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C1', 'Friday', '16:00', '16:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('C1', 'Thursday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D', 'Friday', '10:00', '10:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D', 'Monday', '11:00', '11:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D', 'Wednesday', '8:00', '8:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D', 'Thursday', '9:00', '9:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D1', 'Monday', '14:00', '14:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D1', 'Friday', '15:00', '15:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D1', 'Thursday', '16:00', '16:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('D1', 'Wednesday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E', 'Thursday', '10:00', '10:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E', 'Friday', '11:00', '11:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E', 'Tuesday', '8:00', '8:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E', 'Wednesday', '9:00', '9:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E1', 'Friday', '14:00', '14:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E1', 'Thursday', '15:00', '15:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E1', 'Wednesday', '16:00', '16:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('E1', 'Tuesday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('F', 'Monday', '12:00', '12:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('F', 'Wednesday', '12:00', '12:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('F', 'Friday', '12:00', '12:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('G', 'Monday', '13:00', '13:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('G', 'Wednesday', '13:00', '13:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('G', 'Friday', '13:00', '13:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('H', 'Tuesday', '12:00', '12:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('H', 'Thursday', '12:00', '12:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('I', 'Tuesday', '12:00', '1:25');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('I', 'Thursday', '12:00', '1:25');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('J', 'Tuesday', '13:00', '13:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('J', 'Thursday', '13:00', '13:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('K', 'Monday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('K', 'Wednesday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('K', 'Friday', '17:00', '17:55');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('L', 'Tuesday', '17:00', '6:25');
-INSERT INTO Slot(letter, day, start_time, end_time) VALUES('L', 'Thursday', '17:00', '6:25');
+INSERT INTO Slot(letter, day, start_time, end_time) VALUES
+	('A', 'Monday', '8:00', '8:55'),
+	('A', 'Thursday', '11:00', '11:55'),
+	('A', 'Tuesday', '9:00', '9:55'),
+	('A', 'Wednesday', '10:00', '10:55'),
+	('A1', 'Monday', '17:00', '17:55'),
+	('A1', 'Thursday', '14:00', '14:55'),
+	('A1', 'Tuesday', '16:00', '16:55'),
+	('A1', 'Wednesday', '15:00', '15:55'),
+	('B', 'Friday', '8:00', '8:55'),
+	('B', 'Monday', '9:00', '9:55'),
+	('B', 'Tuesday', '10:00', '10:55'),
+	('B', 'Wednesday', '11:00', '11:55'),
+	('B1', 'Friday', '17:00', '17:55'),
+	('B1', 'Monday', '16:00', '16:55'),
+	('B1', 'Tuesday', '15:00', '15:55'),
+	('B1', 'Wednesday', '14:00', '14:55'),
+	('C', 'Friday', '9:00', '9:55'),
+	('C', 'Monday', '10:00', '10:55'),
+	('C', 'Thursday', '8:00', '8:55'),
+	('C', 'Tuesday', '11:00', '11:55'),
+	('C1', 'Friday', '16:00', '16:55'),
+	('C1', 'Monday', '15:00', '15:55'),
+	('C1', 'Thursday', '17:00', '17:55'),
+	('C1', 'Tuesday', '14:00', '14:55'),
+	('D', 'Friday', '10:00', '10:55'),
+	('D', 'Monday', '11:00', '11:55'),
+	('D', 'Thursday', '9:00', '9:55'),
+	('D', 'Wednesday', '8:00', '8:55'),
+	('D1', 'Friday', '15:00', '15:55'),
+	('D1', 'Monday', '14:00', '14:55'),
+	('D1', 'Thursday', '16:00', '16:55'),
+	('D1', 'Wednesday', '17:00', '17:55'),
+	('E', 'Friday', '11:00', '11:55'),
+	('E', 'Thursday', '10:00', '10:55'),
+	('E', 'Tuesday', '8:00', '8:55'),
+	('E', 'Wednesday', '9:00', '9:55'),
+	('E1', 'Friday', '14:00', '14:55'),
+	('E1', 'Thursday', '15:00', '15:55'),
+	('E1', 'Tuesday', '17:00', '17:55'),
+	('E1', 'Wednesday', '16:00', '16:55'),
+	('F', 'Friday', '12:00', '12:55'),
+	('F', 'Monday', '12:00', '12:55'),
+	('F', 'Wednesday', '12:00', '12:55'),
+	('G', 'Friday', '13:00', '13:55'),
+	('G', 'Monday', '13:00', '13:55'),
+	('G', 'Wednesday', '13:00', '13:55'),
+	('H', 'Thursday', '12:00', '12:55'),
+	('H', 'Tuesday', '12:00', '12:55'),
+	('I', 'Thursday', '12:00', '1:25'),
+	('I', 'Tuesday', '12:00', '1:25'),
+	('J', 'Thursday', '13:00', '13:55'),
+	('J', 'Tuesday', '13:00', '13:55'),
+	('K', 'Friday', '17:00', '17:55'),
+	('K', 'Monday', '17:00', '17:55'),
+	('K', 'Wednesday', '17:00', '17:55'),
+	('L', 'Thursday', '17:00', '6:25'),
+	('L', 'Tuesday', '17:00', '6:25');

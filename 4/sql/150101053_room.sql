@@ -1,89 +1,87 @@
 USE 09feb2018;
 
-INSERT INTO Room(room_number, location) VALUES('1001', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1002', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1003', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1004', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1005', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1006', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1101', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1102', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1103', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1104', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1201', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1202', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1203', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1204', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1206', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1207', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('2001', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2002', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2003', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2004', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2101', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2102', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2103', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2104', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2201', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2202', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2203', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('2204', 'Core-II');
-INSERT INTO Room(room_number, location) VALUES('3001', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3002', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3003', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3004', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3101', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3102', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3103', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3104', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3201', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3202', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3203', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3204', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('3303', 'Core-III');
-INSERT INTO Room(room_number, location) VALUES('4001', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4002', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4003', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4004', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4005', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4006', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4101', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4102', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4103', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4104', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4105', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4107', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4201', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4202', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4203', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4204', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4205', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4206', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4207', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4208', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4209', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4210', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4211', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4212', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('1G1', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1G2', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1G3', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('1G4', 'Core-I');
-INSERT INTO Room(room_number, location) VALUES('4G1', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4G2', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4G3', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('4G4', 'Core-IV');
-INSERT INTO Room(room_number, location) VALUES('BDES 2 Studio', 'Local');
-INSERT INTO Room(room_number, location) VALUES('BDES 3 Studio', 'Local');
-INSERT INTO Room(room_number, location) VALUES('BDES 4 Studio', 'Local');
-INSERT INTO Room(room_number, location) VALUES('Ergonomics Lab', 'Local');
-INSERT INTO Room(room_number, location) VALUES('L1', 'LH');
-INSERT INTO Room(room_number, location) VALUES('L2', 'LH');
-INSERT INTO Room(room_number, location) VALUES('L3', 'LH');
-INSERT INTO Room(room_number, location) VALUES('L4', 'LH');
-INSERT INTO Room(room_number, location) VALUES('MDES 1 Studio', 'Local');
-INSERT INTO Room(room_number, location) VALUES('MDES 2 Studio', 'Local');
-INSERT INTO Room(room_number, location) VALUES('Media Lab', 'Local');
-INSERT INTO Room(room_number, location) VALUES('Seminar Room', 'Local');
-INSERT INTO Room(room_number, location) VALUES('SSI Lab', 'Local');
-INSERT INTO Room(room_number, location) VALUES('UE Lab', 'Local');
+INSERT INTO Room(room_number, location) VALUES
+	('1001', 'Core-I'),
+	('1002', 'Core-I'),
+	('1003', 'Core-I'),
+	('1004', 'Core-I'),
+	('1005', 'Core-I'),
+	('1006', 'Core-I'),
+	('1101', 'Core-I'),
+	('1102', 'Core-I'),
+	('1103', 'Core-I'),
+	('1104', 'Core-I'),
+	('1201', 'Core-I'),
+	('1202', 'Core-I'),
+	('1203', 'Core-I'),
+	('1204', 'Core-I'),
+	('1206', 'Core-I'),
+	('1207', 'Core-I'),
+	('2001', 'Core-II'),
+	('2002', 'Core-II'),
+	('2003', 'Core-II'),
+	('2004', 'Core-II'),
+	('2101', 'Core-II'),
+	('2102', 'Core-II'),
+	('2103', 'Core-II'),
+	('2104', 'Core-II'),
+	('2201', 'Core-II'),
+	('2202', 'Core-II'),
+	('2203', 'Core-II'),
+	('2204', 'Core-II'),
+	('3001', 'Core-III'),
+	('3002', 'Core-III'),
+	('3003', 'Core-III'),
+	('3004', 'Core-III'),
+	('3101', 'Core-III'),
+	('3102', 'Core-III'),
+	('3103', 'Core-III'),
+	('3104', 'Core-III'),
+	('3201', 'Core-III'),
+	('3202', 'Core-III'),
+	('3203', 'Core-III'),
+	('3204', 'Core-III'),
+	('3303', 'Core-III'),
+	('4001', 'Core-IV'),
+	('4002', 'Core-IV'),
+	('4003', 'Core-IV'),
+	('4004', 'Core-IV'),
+	('4005', 'Core-IV'),
+	('4006', 'Core-IV'),
+	('4101', 'Core-IV'),
+	('4102', 'Core-IV'),
+	('4103', 'Core-IV'),
+	('4104', 'Core-IV'),
+	('4105', 'Core-IV'),
+	('4107', 'Core-IV'),
+	('4201', 'Core-IV'),
+	('4202', 'Core-IV'),
+	('4203', 'Core-IV'),
+	('4204', 'Core-IV'),
+	('4205', 'Core-IV'),
+	('4206', 'Core-IV'),
+	('4207', 'Core-IV'),
+	('4208', 'Core-IV'),
+	('4209', 'Core-IV'),
+	('4210', 'Core-IV'),
+	('4211', 'Core-IV'),
+	('4212', 'Core-IV'),
+	('1G1', 'Core-I'),
+	('1G2', 'Core-I'),
+	('4G3', 'Core-IV'),
+	('4G4', 'Core-IV'),
+	('BDES 2 Studio', 'Local'),
+	('BDES 3 Studio', 'Local'),
+	('BDES 4 Studio', 'Local'),
+	('Common Room', 'Local'),
+	('Ergonomics Lab', 'Local'),
+	('L1', 'LH'),
+	('L2', 'LH'),
+	('L3', 'LH'),
+	('L4', 'LH'),
+	('MDES 1 Studio', 'Local'),
+	('MDES 2 Studio', 'Local'),
+	('Media Lab', 'Local'),
+	('Seminar Room', 'Local'),
+	('SSI Lab', 'Local'),
+	('UE Lab', 'Local');

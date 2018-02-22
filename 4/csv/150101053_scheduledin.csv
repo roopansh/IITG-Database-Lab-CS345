@@ -1,4 +1,4 @@
-course_id,course_division,department,slot_letter,slot_day,room
+course_id,division,department,slot_letter,slot_day,room
 BT101,I,BSBE,D1,Friday,L2
 BT101,I,BSBE,D1,Monday,L2
 BT101,I,BSBE,D1,Thursday,L2
@@ -103,16 +103,18 @@ CE304,NA,CE,A1,Tuesday,4201
 CE304,NA,CE,B,Wednesday,4211
 CE307,NA,CE,F,Friday,3102
 CE307,NA,CE,F,Monday,4201
-CE307,NA,CE,F,Wednesday,4201
 CE307,NA,CE,H,Thursday,3102
+CE307,NA,CE,F,Wednesday,4201
 CE308,NA,CE,C1,Friday,4201
-CE308,NA,CE,C1,Tuesday,4201
 CE308,NA,CE,D1,Monday,4201
-CE309,NA,CE,B1,Tuesday,4201
+CE308,NA,CE,C1,Tuesday,4201
 CE309,NA,CE,D1,Friday,4201
 CE309,NA,CE,D1,Thursday,4201
+CE309,NA,CE,B1,Tuesday,4201
 CE309,NA,CE,D1,Wednesday,4201
+CE309,NA,CE,K,Wednesday,4201
 CE311,NA,CE,A1,Monday,4201
+CE311,NA,CE,K,Monday,4201
 CE311,NA,CE,E1,Thursday,4201
 CE311,NA,CE,E1,Tuesday,4201
 CE311,NA,CE,E1,Wednesday,4201
@@ -129,17 +131,17 @@ CE510,NA,CE,D,Thursday,4208
 CE514,NA,CE,A1,Thursday,3102
 CE514,NA,CE,A1,Tuesday,3102
 CE514,NA,CE,A1,Wednesday,3102
+CE524,NA,CE,F,Friday,4208
 CE524,NA,CE,A,Thursday,4208
 CE524,NA,CE,A,Tuesday,4208
 CE524,NA,CE,A,Wednesday,4208
-CE524,NA,CE,F,Friday,4208
 CE525,NA,CE,B,Monday,4208
 CE525,NA,CE,B,Tuesday,4208
 CE525,NA,CE,B,Wednesday,4208
+CE533,NA,CE,F,Friday,4205
 CE533,NA,CE,A,Thursday,4205
 CE533,NA,CE,A,Tuesday,4205
 CE533,NA,CE,A,Wednesday,4205
-CE533,NA,CE,F,Friday,4205
 CE552,NA,CE,C,Friday,4G3
 CE552,NA,CE,C,Friday,4G3 
 CE552,NA,CE,C,Monday,4G3
@@ -155,14 +157,14 @@ CE564,NA,CE,B1,Monday,3102
 CE564,NA,CE,B1,Tuesday,3102
 CE564,NA,CE,B1,Wednesday,3102
 CE570,NA,CE,F,Monday,4208
-CE570,NA,CE,F,Wednesday,4205
 CE570,NA,CE,H,Tuesday,4205
-CE583,NA,CE,C,Tuesday,4205
+CE570,NA,CE,F,Wednesday,4205
 CE583,NA,CE,D,Monday,4205
+CE583,NA,CE,C,Tuesday,4205
 CE583,NA,CE,E,Wednesday,4205
-CE584,NA,CE,A,Wednesday,4211
 CE584,NA,CE,C,Monday,4205
 CE584,NA,CE,E,Thursday,4205
+CE584,NA,CE,A,Wednesday,4211
 CE594,NA,CE,A1,Thursday,4211
 CE594,NA,CE,A1,Tuesday,4211
 CE594,NA,CE,A1,Wednesday,4211
@@ -184,8 +186,8 @@ CE614,NA,CE,C1,Friday,4211
 CE614,NA,CE,C1,Monday,4211
 CE614,NA,CE,C1,Tuesday,4211
 CE615,NA,CE,F,Monday,4205
-CE615,NA,CE,F,Wednesday,4211
 CE615,NA,CE,H,Thursday,4205
+CE615,NA,CE,F,Wednesday,4211
 CE616,NA,CE,C,Friday,4001
 CE616,NA,CE,C,Monday,4001
 CE616,NA,CE,C,Tuesday,4001
@@ -207,12 +209,13 @@ CE648,NA,CE,E,Wednesday,4201
 CE649,NA,CE,E1,Thursday,3102
 CE649,NA,CE,E1,Tuesday,3102
 CE649,NA,CE,E1,Wednesday,3102
-CE652,NA,CE,A1,Monday,3102
-CE652,NA,CE,C1,Thursday,3102
 CE652,NA,CE,E1,Friday,3102
+CE652,NA,CE,A1,Monday,3102
+CE652,NA,CE,K,Monday,3102
+CE652,NA,CE,C1,Thursday,3102
 CE661,NA,CE,C,Friday,4208
-CE661,NA,CE,C,Tuesday,4208
 CE661,NA,CE,H,Thursday,4208
+CE661,NA,CE,C,Tuesday,4208
 CE661,NA,CE,H,Tuesday,4208
 CE664,NA,CE,C1,Friday,4208
 CE664,NA,CE,C1,Monday,4208
@@ -267,14 +270,14 @@ CH433,NA,CH,D,Monday,4006
 CH433,NA,CH,D,Thursday,4006
 CH433,NA,CH,D,Wednesday,4006
 CH438,NA,CH,C,Friday,4005
-CH438,NA,CH,C,Friday,4105
 CH438,NA,CH,C,Monday,4005
-CH438,NA,CH,C,Monday,4105
 CH438,NA,CH,C,Tuesday,4005
-CH438,NA,CH,C,Tuesday,4105
 CH501,NA,CH,F,Friday,3303
+CH501,NA,CH,F,Friday,3003
 CH501,NA,CH,F,Monday,3303
+CH501,NA,CH,F,Monday,3003
 CH501,NA,CH,F,Wednesday,3303
+CH501,NA,CH,F,Wednesday,3003
 CH603,NA,CH,A,Thursday,3003
 CH603,NA,CH,A,Tuesday,3003
 CH603,NA,CH,A,Wednesday,3003
@@ -324,12 +327,12 @@ CL205,NA,CL,B,Tuesday,4102
 CL205,NA,CL,B,Tuesday,L4
 CL205,NA,CL,B,Wednesday,4102
 CL205,NA,CL,B,Wednesday,L4
-CL206,NA,CL,A1,Wednesday,2102
-CL206,NA,CL,B1,Wednesday,2102
 CL206,NA,CL,C,Friday,4203
 CL206,NA,CL,C,Monday,4203
 CL206,NA,CL,C,Thursday,4203
 CL206,NA,CL,C,Tuesday,4203
+CL206,NA,CL,A1,Wednesday,2102
+CL206,NA,CL,B1,Wednesday,2102
 CL206,NA,CL,E1,Wednesday,2102
 CL207,NA,CL,D,Friday,4203
 CL207,NA,CL,D,Monday,4203
@@ -404,11 +407,11 @@ CL625,NA,CL,E1,Friday,4001
 CL625,NA,CL,E1,Friday,L4
 CL625,NA,CL,E1,Thursday,4001
 CL625,NA,CL,E1,Thursday,L4
+CL625,NA,CL,L,Thursday,4G3
 CL625,NA,CL,E1,Tuesday,L4
+CL625,NA,CL,L,Tuesday,4G3
 CL625,NA,CL,E1,Wednesday,4001
 CL625,NA,CL,E1,Wednesday,L4
-CL625,NA,CL,L,Thursday,4G3
-CL625,NA,CL,L,Tuesday,4G3
 CL630,NA,CL,F,Friday,4209
 CL630,NA,CL,F,Monday,4209
 CL630,NA,CL,F,Wednesday,4209
@@ -427,13 +430,13 @@ CL639,NA,CL,C,Friday,1G1
 CL639,NA,CL,C,Friday,L4
 CL639,NA,CL,C,Monday,1G1
 CL639,NA,CL,C,Monday,L4
+CL639,NA,CL,K,Monday,4G4
 CL639,NA,CL,C,Thursday,L4
 CL639,NA,CL,C,Tuesday,1G1
 CL639,NA,CL,C,Tuesday,L4
-CL639,NA,CL,K,Monday,4G4
 CL639,NA,CL,K,Wednesday,4G4
-CL642,NA,CL,L,Tuesday,4203
 CL642,NA,CL,L,Thursday,4203
+CL642,NA,CL,L,Tuesday,4203
 CS101,I,CSE,A1,Monday,L2
 CS101,I,CSE,A1,Thursday,L2
 CS101,I,CSE,A1,Tuesday,L2
@@ -461,6 +464,7 @@ CS204,NA,CSE,D,Wednesday,1201
 CS206M,NA,CSE,F,Friday,1201
 CS206M,NA,CSE,F,Monday,1201
 CS206M,NA,CSE,F,Wednesday,1201
+CS222,NA,CSE,A,Monday,L4
 CS222,NA,CSE,A,Thursday,L4
 CS222,NA,CSE,A,Tuesday,L4
 CS222,NA,CSE,A,Wednesday,L4
@@ -486,6 +490,7 @@ CS501,NA,CSE,E,Friday,2001
 CS501,NA,CSE,E,Thursday,2001
 CS501,NA,CSE,E,Tuesday,2001
 CS501,NA,CSE,E,Wednesday,2001
+CS503,NA,CSE,A1,Monday,2203
 CS503,NA,CSE,A1,Thursday,2001
 CS503,NA,CSE,A1,Tuesday,2001
 CS503,NA,CSE,A1,Wednesday,2001
@@ -513,210 +518,161 @@ CS666,NA,CSE,D,Monday,2001
 CS666,NA,CSE,D,Thursday,2001
 CS666,NA,CSE,D,Wednesday,2001
 DD111,NA,DD,B,Friday,Seminar Room
-DD111,NA,DD,B,Thursday,Seminar Room
 DD111,NA,DD,B1,Friday,Seminar Room
-DD111,NA,DD,B1,Monday,Seminar Room
-DD111,NA,DD,B1,Wednesday,Seminar Room
 DD111,NA,DD,C,Friday,Seminar Room
-DD111,NA,DD,C,Monday,Seminar Room
-DD111,NA,DD,C,Thursday,Seminar Room
 DD111,NA,DD,C1,Friday,Seminar Room
-DD111,NA,DD,C1,Monday,Seminar Room
-DD111,NA,DD,C1,Wednesday,Seminar Room
 DD111,NA,DD,D,Friday,Seminar Room
-DD111,NA,DD,D,Monday,Seminar Room
-DD111,NA,DD,D,Tuesday,Seminar Room
 DD111,NA,DD,D1,Friday,Seminar Room
-DD111,NA,DD,D1,Monday,Seminar Room
-DD111,NA,DD,D1,Wednesday,Seminar Room
 DD111,NA,DD,F,Friday,Seminar Room
+DD111,NA,DD,B1,Monday,Seminar Room
+DD111,NA,DD,C,Monday,Seminar Room
+DD111,NA,DD,C1,Monday,Seminar Room
+DD111,NA,DD,D,Monday,Seminar Room
+DD111,NA,DD,D1,Monday,Seminar Room
 DD111,NA,DD,F,Monday,Seminar Room
-DD111,NA,DD,F,Tuesday,Seminar Room
+DD111,NA,DD,C,Thursday,Seminar Room
+DD111,NA,DD,B1,Wednesday,Seminar Room
+DD111,NA,DD,D1,Wednesday,Seminar Room
 DD112,NA,DD,B,Friday,Seminar Room
-DD112,NA,DD,B,Thursday,Seminar Room
 DD112,NA,DD,B1,Friday,Seminar Room
-DD112,NA,DD,B1,Monday,Seminar Room
-DD112,NA,DD,B1,Wednesday,Seminar Room
 DD112,NA,DD,C,Friday,Seminar Room
-DD112,NA,DD,C,Monday,Seminar Room
-DD112,NA,DD,C,Thursday,Seminar Room
 DD112,NA,DD,C1,Friday,Seminar Room
-DD112,NA,DD,C1,Monday,Seminar Room
-DD112,NA,DD,C1,Wednesday,Seminar Room
 DD112,NA,DD,D,Friday,Seminar Room
-DD112,NA,DD,D,Monday,Seminar Room
-DD112,NA,DD,D,Tuesday,Seminar Room
 DD112,NA,DD,D1,Friday,Seminar Room
-DD112,NA,DD,D1,Monday,Seminar Room
-DD112,NA,DD,D1,Wednesday,Seminar Room
 DD112,NA,DD,F,Friday,Seminar Room
+DD112,NA,DD,B1,Monday,Seminar Room
+DD112,NA,DD,C,Monday,Seminar Room
+DD112,NA,DD,C1,Monday,Seminar Room
+DD112,NA,DD,D,Monday,Seminar Room
+DD112,NA,DD,D1,Monday,Seminar Room
 DD112,NA,DD,F,Monday,Seminar Room
-DD112,NA,DD,F,Tuesday,Seminar Room
+DD112,NA,DD,C,Thursday,Seminar Room
+DD112,NA,DD,B1,Wednesday,Seminar Room
+DD112,NA,DD,D1,Wednesday,Seminar Room
 DD113,NA,DD,B,Friday,Seminar Room
-DD113,NA,DD,B,Thursday,Seminar Room
 DD113,NA,DD,B1,Friday,Seminar Room
-DD113,NA,DD,B1,Monday,Seminar Room
-DD113,NA,DD,B1,Wednesday,Seminar Room
 DD113,NA,DD,C,Friday,Seminar Room
-DD113,NA,DD,C,Monday,Seminar Room
-DD113,NA,DD,C,Thursday,Seminar Room
 DD113,NA,DD,C1,Friday,Seminar Room
-DD113,NA,DD,C1,Monday,Seminar Room
-DD113,NA,DD,C1,Wednesday,Seminar Room
 DD113,NA,DD,D,Friday,Seminar Room
-DD113,NA,DD,D,Monday,Seminar Room
-DD113,NA,DD,D,Tuesday,Seminar Room
 DD113,NA,DD,D1,Friday,Seminar Room
-DD113,NA,DD,D1,Monday,Seminar Room
-DD113,NA,DD,D1,Wednesday,Seminar Room
 DD113,NA,DD,F,Friday,Seminar Room
+DD113,NA,DD,B1,Monday,Seminar Room
+DD113,NA,DD,C,Monday,Seminar Room
+DD113,NA,DD,C1,Monday,Seminar Room
+DD113,NA,DD,D,Monday,Seminar Room
+DD113,NA,DD,D1,Monday,Seminar Room
 DD113,NA,DD,F,Monday,Seminar Room
-DD113,NA,DD,F,Tuesday,Seminar Room
+DD113,NA,DD,C,Thursday,Seminar Room
+DD113,NA,DD,B1,Wednesday,Seminar Room
+DD113,NA,DD,D1,Wednesday,Seminar Room
 DD211,NA,DD,B1,Monday,BDES 2 Studio
 DD211,NA,DD,C1,Monday,BDES 2 Studio
 DD211,NA,DD,D1,Monday,BDES 2 Studio
 DD212,NA,DD,B,Friday,BDES 2 Studio
-DD212,NA,DD,B,Monday,BDES 2 Studio
-DD212,NA,DD,B,Tuesday,BDES 2 Studio
 DD212,NA,DD,B1,Friday,BDES 2 Studio
-DD212,NA,DD,B1,Thursday,BDES 2 Studio
-DD212,NA,DD,B1,Wednesday,BDES 2 Studio
 DD212,NA,DD,C,Friday,BDES 2 Studio
-DD212,NA,DD,C,Monday,BDES 2 Studio
-DD212,NA,DD,C,Tuesday,BDES 2 Studio
-DD212,NA,DD,C,Wednesday,BDES 2 Studio
 DD212,NA,DD,C1,Friday,BDES 2 Studio
-DD212,NA,DD,C1,Thursday,BDES 2 Studio
-DD212,NA,DD,C1,Wednesday,BDES 2 Studio
-DD212,NA,DD,D,Monday,BDES 2 Studio
-DD212,NA,DD,D,Thursday,BDES 2 Studio
-DD212,NA,DD,D,Tuesday,BDES 2 Studio
-DD212,NA,DD,D,Wednesday,BDES 2 Studio
 DD212,NA,DD,D1,Friday,BDES 2 Studio
+DD212,NA,DD,B,Monday,BDES 2 Studio
+DD212,NA,DD,C,Monday,BDES 2 Studio
+DD212,NA,DD,D,Monday,BDES 2 Studio
+DD212,NA,DD,C1,Thursday,BDES 2 Studio
+DD212,NA,DD,D,Thursday,BDES 2 Studio
 DD212,NA,DD,D1,Thursday,BDES 2 Studio
+DD212,NA,DD,B,Tuesday,BDES 2 Studio
+DD212,NA,DD,C,Tuesday,BDES 2 Studio
+DD212,NA,DD,B1,Wednesday,BDES 2 Studio
+DD212,NA,DD,D,Wednesday,BDES 2 Studio
 DD212,NA,DD,D1,Wednesday,BDES 2 Studio
-DD212,NA,DD,F,Thursday,BDES 2 Studio
-DD212,NA,DD,F,Tuesday,BDES 2 Studio
 DD213,NA,DD,A1,Tuesday,BDES 2 Studio
 DD213,NA,DD,B1,Tuesday,BDES 2 Studio
 DD213,NA,DD,C1,Tuesday,BDES 2 Studio
-DD213,NA,DD,D1,Tuesday,BDES 2 Studio
 DD214,NA,DD,B,Friday,BDES 2 Studio
-DD214,NA,DD,B,Monday,BDES 2 Studio
-DD214,NA,DD,B,Tuesday,BDES 2 Studio
 DD214,NA,DD,B1,Friday,BDES 2 Studio
-DD214,NA,DD,B1,Thursday,BDES 2 Studio
-DD214,NA,DD,B1,Wednesday,BDES 2 Studio
 DD214,NA,DD,C,Friday,BDES 2 Studio
-DD214,NA,DD,C,Monday,BDES 2 Studio
-DD214,NA,DD,C,Tuesday,BDES 2 Studio
-DD214,NA,DD,C,Wednesday,BDES 2 Studio
 DD214,NA,DD,C1,Friday,BDES 2 Studio
-DD214,NA,DD,C1,Thursday,BDES 2 Studio
-DD214,NA,DD,C1,Wednesday,BDES 2 Studio
-DD214,NA,DD,D,Monday,BDES 2 Studio
-DD214,NA,DD,D,Thursday,BDES 2 Studio
-DD214,NA,DD,D,Tuesday,BDES 2 Studio
-DD214,NA,DD,D,Wednesday,BDES 2 Studio
 DD214,NA,DD,D1,Friday,BDES 2 Studio
+DD214,NA,DD,B,Monday,BDES 2 Studio
+DD214,NA,DD,C,Monday,BDES 2 Studio
+DD214,NA,DD,D,Monday,BDES 2 Studio
+DD214,NA,DD,C1,Thursday,BDES 2 Studio
+DD214,NA,DD,D,Thursday,BDES 2 Studio
 DD214,NA,DD,D1,Thursday,BDES 2 Studio
+DD214,NA,DD,B,Tuesday,BDES 2 Studio
+DD214,NA,DD,C,Tuesday,BDES 2 Studio
+DD214,NA,DD,B1,Wednesday,BDES 2 Studio
+DD214,NA,DD,D,Wednesday,BDES 2 Studio
 DD214,NA,DD,D1,Wednesday,BDES 2 Studio
-DD214,NA,DD,F,Thursday,BDES 2 Studio
-DD214,NA,DD,F,Tuesday,BDES 2 Studio
 DD215,NA,DD,B,Friday,BDES 2 Studio
-DD215,NA,DD,B,Monday,BDES 2 Studio
-DD215,NA,DD,B,Tuesday,BDES 2 Studio
 DD215,NA,DD,B1,Friday,BDES 2 Studio
-DD215,NA,DD,B1,Thursday,BDES 2 Studio
-DD215,NA,DD,B1,Wednesday,BDES 2 Studio
 DD215,NA,DD,C,Friday,BDES 2 Studio
-DD215,NA,DD,C,Monday,BDES 2 Studio
-DD215,NA,DD,C,Tuesday,BDES 2 Studio
-DD215,NA,DD,C,Wednesday,BDES 2 Studio
 DD215,NA,DD,C1,Friday,BDES 2 Studio
-DD215,NA,DD,C1,Thursday,BDES 2 Studio
-DD215,NA,DD,C1,Wednesday,BDES 2 Studio
-DD215,NA,DD,D,Monday,BDES 2 Studio
-DD215,NA,DD,D,Thursday,BDES 2 Studio
-DD215,NA,DD,D,Tuesday,BDES 2 Studio
-DD215,NA,DD,D,Wednesday,BDES 2 Studio
 DD215,NA,DD,D1,Friday,BDES 2 Studio
+DD215,NA,DD,B,Monday,BDES 2 Studio
+DD215,NA,DD,C,Monday,BDES 2 Studio
+DD215,NA,DD,D,Monday,BDES 2 Studio
+DD215,NA,DD,C1,Thursday,BDES 2 Studio
+DD215,NA,DD,D,Thursday,BDES 2 Studio
 DD215,NA,DD,D1,Thursday,BDES 2 Studio
+DD215,NA,DD,B,Tuesday,BDES 2 Studio
+DD215,NA,DD,C,Tuesday,BDES 2 Studio
+DD215,NA,DD,B1,Wednesday,BDES 2 Studio
+DD215,NA,DD,D,Wednesday,BDES 2 Studio
 DD215,NA,DD,D1,Wednesday,BDES 2 Studio
-DD215,NA,DD,F,Thursday,BDES 2 Studio
-DD215,NA,DD,F,Tuesday,BDES 2 Studio
 DD216,NA,DD,B,Friday,BDES 2 Studio
-DD216,NA,DD,B,Monday,BDES 2 Studio
-DD216,NA,DD,B,Tuesday,BDES 2 Studio
 DD216,NA,DD,B1,Friday,BDES 2 Studio
-DD216,NA,DD,B1,Thursday,BDES 2 Studio
-DD216,NA,DD,B1,Wednesday,BDES 2 Studio
 DD216,NA,DD,C,Friday,BDES 2 Studio
-DD216,NA,DD,C,Monday,BDES 2 Studio
-DD216,NA,DD,C,Tuesday,BDES 2 Studio
-DD216,NA,DD,C,Wednesday,BDES 2 Studio
 DD216,NA,DD,C1,Friday,BDES 2 Studio
-DD216,NA,DD,C1,Thursday,BDES 2 Studio
-DD216,NA,DD,C1,Wednesday,BDES 2 Studio
-DD216,NA,DD,D,Monday,BDES 2 Studio
-DD216,NA,DD,D,Thursday,BDES 2 Studio
-DD216,NA,DD,D,Tuesday,BDES 2 Studio
-DD216,NA,DD,D,Wednesday,BDES 2 Studio
 DD216,NA,DD,D1,Friday,BDES 2 Studio
+DD216,NA,DD,B,Monday,BDES 2 Studio
+DD216,NA,DD,C,Monday,BDES 2 Studio
+DD216,NA,DD,D,Monday,BDES 2 Studio
+DD216,NA,DD,C1,Thursday,BDES 2 Studio
+DD216,NA,DD,D,Thursday,BDES 2 Studio
 DD216,NA,DD,D1,Thursday,BDES 2 Studio
+DD216,NA,DD,B,Tuesday,BDES 2 Studio
+DD216,NA,DD,C,Tuesday,BDES 2 Studio
+DD216,NA,DD,B1,Wednesday,BDES 2 Studio
+DD216,NA,DD,D,Wednesday,BDES 2 Studio
 DD216,NA,DD,D1,Wednesday,BDES 2 Studio
-DD216,NA,DD,F,Thursday,BDES 2 Studio
-DD216,NA,DD,F,Tuesday,BDES 2 Studio
 DD220M,NA,DD,F,Friday,BDES 2 Studio
 DD220M,NA,DD,F,Monday,BDES 2 Studio
 DD220M,NA,DD,F,Wednesday,BDES 2 Studio
 DD311,NA,DD,B,Friday,BDES 3 Studio
-DD311,NA,DD,B,Tuesday,BDES 3 Studio
-DD311,NA,DD,B,Wednesday,BDES 3 Studio
 DD311,NA,DD,B1,Friday,BDES 3 Studio
-DD311,NA,DD,B1,Thursday,BDES 3 Studio
-DD311,NA,DD,B1,Tuesday,BDES 3 Studio
-DD311,NA,DD,B1,Wednesday,BDES 3 Studio
 DD311,NA,DD,C,Friday,BDES 3 Studio
-DD311,NA,DD,C,Tuesday,BDES 3 Studio
-DD311,NA,DD,C,Wednesday,BDES 3 Studio
 DD311,NA,DD,C1,Friday,BDES 3 Studio
-DD311,NA,DD,C1,Thursday,BDES 3 Studio
-DD311,NA,DD,C1,Tuesday,BDES 3 Studio
-DD311,NA,DD,C1,Wednesday,BDES 3 Studio
 DD311,NA,DD,D,Friday,BDES 3 Studio
-DD311,NA,DD,D,Tuesday,BDES 3 Studio
-DD311,NA,DD,D,Wednesday,BDES 3 Studio
 DD311,NA,DD,D1,Friday,BDES 3 Studio
-DD311,NA,DD,D1,Thursday,BDES 3 Studio
-DD311,NA,DD,D1,Tuesday,BDES 3 Studio
-DD311,NA,DD,D1,Wednesday,BDES 3 Studio
 DD311,NA,DD,F,Friday,BDES 3 Studio
-DD311,NA,DD,F,Tuesday,BDES 3 Studio
+DD311,NA,DD,C1,Thursday,BDES 3 Studio
+DD311,NA,DD,D1,Thursday,BDES 3 Studio
+DD311,NA,DD,B,Tuesday,BDES 3 Studio
+DD311,NA,DD,B1,Tuesday,BDES 3 Studio
+DD311,NA,DD,C,Tuesday,BDES 3 Studio
+DD311,NA,DD,C1,Tuesday,BDES 3 Studio
+DD311,NA,DD,B,Wednesday,BDES 3 Studio
+DD311,NA,DD,B1,Wednesday,BDES 3 Studio
+DD311,NA,DD,D,Wednesday,BDES 3 Studio
+DD311,NA,DD,D1,Wednesday,BDES 3 Studio
 DD311,NA,DD,F,Wednesday,BDES 3 Studio
 DD312,NA,DD,B,Friday,BDES 3 Studio
-DD312,NA,DD,B,Tuesday,BDES 3 Studio
-DD312,NA,DD,B,Wednesday,BDES 3 Studio
 DD312,NA,DD,B1,Friday,BDES 3 Studio
-DD312,NA,DD,B1,Thursday,BDES 3 Studio
-DD312,NA,DD,B1,Tuesday,BDES 3 Studio
-DD312,NA,DD,B1,Wednesday,BDES 3 Studio
 DD312,NA,DD,C,Friday,BDES 3 Studio
-DD312,NA,DD,C,Tuesday,BDES 3 Studio
-DD312,NA,DD,C,Wednesday,BDES 3 Studio
 DD312,NA,DD,C1,Friday,BDES 3 Studio
-DD312,NA,DD,C1,Thursday,BDES 3 Studio
-DD312,NA,DD,C1,Tuesday,BDES 3 Studio
-DD312,NA,DD,C1,Wednesday,BDES 3 Studio
 DD312,NA,DD,D,Friday,BDES 3 Studio
-DD312,NA,DD,D,Tuesday,BDES 3 Studio
-DD312,NA,DD,D,Wednesday,BDES 3 Studio
 DD312,NA,DD,D1,Friday,BDES 3 Studio
-DD312,NA,DD,D1,Thursday,BDES 3 Studio
-DD312,NA,DD,D1,Tuesday,BDES 3 Studio
-DD312,NA,DD,D1,Wednesday,BDES 3 Studio
 DD312,NA,DD,F,Friday,BDES 3 Studio
-DD312,NA,DD,F,Tuesday,BDES 3 Studio
+DD312,NA,DD,C1,Thursday,BDES 3 Studio
+DD312,NA,DD,D1,Thursday,BDES 3 Studio
+DD312,NA,DD,B,Tuesday,BDES 3 Studio
+DD312,NA,DD,B1,Tuesday,BDES 3 Studio
+DD312,NA,DD,C,Tuesday,BDES 3 Studio
+DD312,NA,DD,C1,Tuesday,BDES 3 Studio
+DD312,NA,DD,B,Wednesday,BDES 3 Studio
+DD312,NA,DD,B1,Wednesday,BDES 3 Studio
+DD312,NA,DD,D,Wednesday,BDES 3 Studio
+DD312,NA,DD,D1,Wednesday,BDES 3 Studio
 DD312,NA,DD,F,Wednesday,BDES 3 Studio
 DD313,NA,DD,D,Monday,BDES 3 Studio
 DD313,NA,DD,F,Monday,BDES 3 Studio
@@ -724,52 +680,40 @@ DD314,NA,DD,B1,Monday,BDES 3 Studio
 DD314,NA,DD,C1,Monday,BDES 3 Studio
 DD314,NA,DD,D1,Monday,BDES 3 Studio
 DD315,NA,DD,B,Friday,BDES 3 Studio
-DD315,NA,DD,B,Tuesday,BDES 3 Studio
-DD315,NA,DD,B,Wednesday,BDES 3 Studio
 DD315,NA,DD,B1,Friday,BDES 3 Studio
-DD315,NA,DD,B1,Thursday,BDES 3 Studio
-DD315,NA,DD,B1,Tuesday,BDES 3 Studio
-DD315,NA,DD,B1,Wednesday,BDES 3 Studio
 DD315,NA,DD,C,Friday,BDES 3 Studio
-DD315,NA,DD,C,Tuesday,BDES 3 Studio
-DD315,NA,DD,C,Wednesday,BDES 3 Studio
 DD315,NA,DD,C1,Friday,BDES 3 Studio
-DD315,NA,DD,C1,Thursday,BDES 3 Studio
-DD315,NA,DD,C1,Tuesday,BDES 3 Studio
-DD315,NA,DD,C1,Wednesday,BDES 3 Studio
 DD315,NA,DD,D,Friday,BDES 3 Studio
-DD315,NA,DD,D,Tuesday,BDES 3 Studio
-DD315,NA,DD,D,Wednesday,BDES 3 Studio
 DD315,NA,DD,D1,Friday,BDES 3 Studio
-DD315,NA,DD,D1,Thursday,BDES 3 Studio
-DD315,NA,DD,D1,Tuesday,BDES 3 Studio
-DD315,NA,DD,D1,Wednesday,BDES 3 Studio
 DD315,NA,DD,F,Friday,BDES 3 Studio
-DD315,NA,DD,F,Tuesday,BDES 3 Studio
+DD315,NA,DD,C1,Thursday,BDES 3 Studio
+DD315,NA,DD,D1,Thursday,BDES 3 Studio
+DD315,NA,DD,B,Tuesday,BDES 3 Studio
+DD315,NA,DD,B1,Tuesday,BDES 3 Studio
+DD315,NA,DD,C,Tuesday,BDES 3 Studio
+DD315,NA,DD,C1,Tuesday,BDES 3 Studio
+DD315,NA,DD,B,Wednesday,BDES 3 Studio
+DD315,NA,DD,B1,Wednesday,BDES 3 Studio
+DD315,NA,DD,D,Wednesday,BDES 3 Studio
+DD315,NA,DD,D1,Wednesday,BDES 3 Studio
 DD315,NA,DD,F,Wednesday,BDES 3 Studio
 DD316,NA,DD,B,Friday,BDES 3 Studio
-DD316,NA,DD,B,Tuesday,BDES 3 Studio
-DD316,NA,DD,B,Wednesday,BDES 3 Studio
 DD316,NA,DD,B1,Friday,BDES 3 Studio
-DD316,NA,DD,B1,Thursday,BDES 3 Studio
-DD316,NA,DD,B1,Tuesday,BDES 3 Studio
-DD316,NA,DD,B1,Wednesday,BDES 3 Studio
 DD316,NA,DD,C,Friday,BDES 3 Studio
-DD316,NA,DD,C,Tuesday,BDES 3 Studio
-DD316,NA,DD,C,Wednesday,BDES 3 Studio
 DD316,NA,DD,C1,Friday,BDES 3 Studio
-DD316,NA,DD,C1,Thursday,BDES 3 Studio
-DD316,NA,DD,C1,Tuesday,BDES 3 Studio
-DD316,NA,DD,C1,Wednesday,BDES 3 Studio
 DD316,NA,DD,D,Friday,BDES 3 Studio
-DD316,NA,DD,D,Tuesday,BDES 3 Studio
-DD316,NA,DD,D,Wednesday,BDES 3 Studio
 DD316,NA,DD,D1,Friday,BDES 3 Studio
-DD316,NA,DD,D1,Thursday,BDES 3 Studio
-DD316,NA,DD,D1,Tuesday,BDES 3 Studio
-DD316,NA,DD,D1,Wednesday,BDES 3 Studio
 DD316,NA,DD,F,Friday,BDES 3 Studio
-DD316,NA,DD,F,Tuesday,BDES 3 Studio
+DD316,NA,DD,C1,Thursday,BDES 3 Studio
+DD316,NA,DD,D1,Thursday,BDES 3 Studio
+DD316,NA,DD,B,Tuesday,BDES 3 Studio
+DD316,NA,DD,B1,Tuesday,BDES 3 Studio
+DD316,NA,DD,C,Tuesday,BDES 3 Studio
+DD316,NA,DD,C1,Tuesday,BDES 3 Studio
+DD316,NA,DD,B,Wednesday,BDES 3 Studio
+DD316,NA,DD,B1,Wednesday,BDES 3 Studio
+DD316,NA,DD,D,Wednesday,BDES 3 Studio
+DD316,NA,DD,D1,Wednesday,BDES 3 Studio
 DD316,NA,DD,F,Wednesday,BDES 3 Studio
 DD320M,NA,DD,G,Friday,BDES 3 Studio
 DD320M,NA,DD,G,Monday,BDES 3 Studio
@@ -778,78 +722,62 @@ DD411,NA,DD,B1,Monday,BDES 4 Studio
 DD411,NA,DD,C1,Monday,BDES 4 Studio
 DD411,NA,DD,D1,Monday,BDES 4 Studio
 DD413,NA,DD,B,Friday,BDES 4 Studio
-DD413,NA,DD,B,Monday,BDES 4 Studio
 DD413,NA,DD,B1,Friday,BDES 4 Studio
-DD413,NA,DD,B1,Thursday,BDES 4 Studio
-DD413,NA,DD,B1,Tuesday,BDES 4 Studio
-DD413,NA,DD,B1,Wednesday,BDES 4 Studio
 DD413,NA,DD,C,Friday,BDES 4 Studio
-DD413,NA,DD,C,Monday,BDES 4 Studio
-DD413,NA,DD,C,Tuesday,BDES 4 Studio
 DD413,NA,DD,C1,Friday,BDES 4 Studio
-DD413,NA,DD,C1,Thursday,BDES 4 Studio
-DD413,NA,DD,C1,Tuesday,BDES 4 Studio
-DD413,NA,DD,C1,Wednesday,BDES 4 Studio
 DD413,NA,DD,D,Friday,BDES 4 Studio
-DD413,NA,DD,D,Monday,BDES 4 Studio
-DD413,NA,DD,D,Tuesday,BDES 4 Studio
-DD413,NA,DD,D,Wednesday,BDES 4 Studio
 DD413,NA,DD,D1,Friday,BDES 4 Studio
-DD413,NA,DD,D1,Thursday,BDES 4 Studio
-DD413,NA,DD,D1,Tuesday,BDES 4 Studio
-DD413,NA,DD,D1,Wednesday,BDES 4 Studio
 DD413,NA,DD,F,Friday,BDES 4 Studio
+DD413,NA,DD,B,Monday,BDES 4 Studio
+DD413,NA,DD,C,Monday,BDES 4 Studio
+DD413,NA,DD,D,Monday,BDES 4 Studio
 DD413,NA,DD,F,Monday,BDES 4 Studio
-DD413,NA,DD,F,Tuesday,BDES 4 Studio
+DD413,NA,DD,C1,Thursday,BDES 4 Studio
+DD413,NA,DD,D1,Thursday,BDES 4 Studio
+DD413,NA,DD,B1,Tuesday,BDES 4 Studio
+DD413,NA,DD,C,Tuesday,BDES 4 Studio
+DD413,NA,DD,C1,Tuesday,BDES 4 Studio
+DD413,NA,DD,B1,Wednesday,BDES 4 Studio
+DD413,NA,DD,D,Wednesday,BDES 4 Studio
+DD413,NA,DD,D1,Wednesday,BDES 4 Studio
 DD413,NA,DD,F,Wednesday,BDES 4 Studio
 DD497,NA,DD,B,Friday,BDES 4 Studio
-DD497,NA,DD,B,Monday,BDES 4 Studio
 DD497,NA,DD,B1,Friday,BDES 4 Studio
-DD497,NA,DD,B1,Thursday,BDES 4 Studio
-DD497,NA,DD,B1,Tuesday,BDES 4 Studio
-DD497,NA,DD,B1,Wednesday,BDES 4 Studio
 DD497,NA,DD,C,Friday,BDES 4 Studio
-DD497,NA,DD,C,Monday,BDES 4 Studio
-DD497,NA,DD,C,Tuesday,BDES 4 Studio
 DD497,NA,DD,C1,Friday,BDES 4 Studio
-DD497,NA,DD,C1,Thursday,BDES 4 Studio
-DD497,NA,DD,C1,Tuesday,BDES 4 Studio
-DD497,NA,DD,C1,Wednesday,BDES 4 Studio
 DD497,NA,DD,D,Friday,BDES 4 Studio
-DD497,NA,DD,D,Monday,BDES 4 Studio
-DD497,NA,DD,D,Tuesday,BDES 4 Studio
-DD497,NA,DD,D,Wednesday,BDES 4 Studio
 DD497,NA,DD,D1,Friday,BDES 4 Studio
-DD497,NA,DD,D1,Thursday,BDES 4 Studio
-DD497,NA,DD,D1,Tuesday,BDES 4 Studio
-DD497,NA,DD,D1,Wednesday,BDES 4 Studio
 DD497,NA,DD,F,Friday,BDES 4 Studio
+DD497,NA,DD,B,Monday,BDES 4 Studio
+DD497,NA,DD,C,Monday,BDES 4 Studio
+DD497,NA,DD,D,Monday,BDES 4 Studio
 DD497,NA,DD,F,Monday,BDES 4 Studio
-DD497,NA,DD,F,Tuesday,BDES 4 Studio
+DD497,NA,DD,C1,Thursday,BDES 4 Studio
+DD497,NA,DD,D1,Thursday,BDES 4 Studio
+DD497,NA,DD,B1,Tuesday,BDES 4 Studio
+DD497,NA,DD,C,Tuesday,BDES 4 Studio
+DD497,NA,DD,C1,Tuesday,BDES 4 Studio
+DD497,NA,DD,B1,Wednesday,BDES 4 Studio
+DD497,NA,DD,D,Wednesday,BDES 4 Studio
+DD497,NA,DD,D1,Wednesday,BDES 4 Studio
 DD497,NA,DD,F,Wednesday,BDES 4 Studio
 DD505,NA,DD,B,Friday,MDES 1 Studio
-DD505,NA,DD,B,Tuesday,MDES 1 Studio
-DD505,NA,DD,B,Wednesday,MDES 1 Studio
 DD505,NA,DD,B1,Friday,MDES 1 Studio
-DD505,NA,DD,B1,Thursday,MDES 1 Studio
-DD505,NA,DD,B1,Tuesday,MDES 1 Studio
-DD505,NA,DD,B1,Wednesday,MDES 1 Studio
 DD505,NA,DD,C,Friday,MDES 1 Studio
-DD505,NA,DD,C,Tuesday,MDES 1 Studio
-DD505,NA,DD,C,Wednesday,MDES 1 Studio
 DD505,NA,DD,C1,Friday,MDES 1 Studio
-DD505,NA,DD,C1,Thursday,MDES 1 Studio
-DD505,NA,DD,C1,Tuesday,MDES 1 Studio
-DD505,NA,DD,C1,Wednesday,MDES 1 Studio
 DD505,NA,DD,D,Friday,MDES 1 Studio
-DD505,NA,DD,D,Tuesday,MDES 1 Studio
-DD505,NA,DD,D,Wednesday,MDES 1 Studio
 DD505,NA,DD,D1,Friday,MDES 1 Studio
-DD505,NA,DD,D1,Thursday,MDES 1 Studio
-DD505,NA,DD,D1,Tuesday,MDES 1 Studio
-DD505,NA,DD,D1,Wednesday,MDES 1 Studio
 DD505,NA,DD,F,Friday,MDES 1 Studio
-DD505,NA,DD,F,Tuesday,MDES 1 Studio
+DD505,NA,DD,C1,Thursday,MDES 1 Studio
+DD505,NA,DD,D1,Thursday,MDES 1 Studio
+DD505,NA,DD,B,Tuesday,MDES 1 Studio
+DD505,NA,DD,B1,Tuesday,MDES 1 Studio
+DD505,NA,DD,C,Tuesday,MDES 1 Studio
+DD505,NA,DD,C1,Tuesday,MDES 1 Studio
+DD505,NA,DD,B,Wednesday,MDES 1 Studio
+DD505,NA,DD,B1,Wednesday,MDES 1 Studio
+DD505,NA,DD,D,Wednesday,MDES 1 Studio
+DD505,NA,DD,D1,Wednesday,MDES 1 Studio
 DD505,NA,DD,F,Wednesday,MDES 1 Studio
 DD506,NA,DD,B,Monday,MDES 1 Studio
 DD506,NA,DD,B1,Monday,MDES 1 Studio
@@ -859,201 +787,163 @@ DD506,NA,DD,D,Monday,MDES 1 Studio
 DD506,NA,DD,D1,Monday,MDES 1 Studio
 DD506,NA,DD,F,Monday,MDES 1 Studio
 DD507,NA,DD,B,Friday,MDES 1 Studio
-DD507,NA,DD,B,Tuesday,MDES 1 Studio
-DD507,NA,DD,B,Wednesday,MDES 1 Studio
 DD507,NA,DD,B1,Friday,MDES 1 Studio
-DD507,NA,DD,B1,Thursday,MDES 1 Studio
-DD507,NA,DD,B1,Tuesday,MDES 1 Studio
-DD507,NA,DD,B1,Wednesday,MDES 1 Studio
 DD507,NA,DD,C,Friday,MDES 1 Studio
-DD507,NA,DD,C,Tuesday,MDES 1 Studio
-DD507,NA,DD,C,Wednesday,MDES 1 Studio
 DD507,NA,DD,C1,Friday,MDES 1 Studio
-DD507,NA,DD,C1,Thursday,MDES 1 Studio
-DD507,NA,DD,C1,Tuesday,MDES 1 Studio
-DD507,NA,DD,C1,Wednesday,MDES 1 Studio
 DD507,NA,DD,D,Friday,MDES 1 Studio
-DD507,NA,DD,D,Tuesday,MDES 1 Studio
-DD507,NA,DD,D,Wednesday,MDES 1 Studio
 DD507,NA,DD,D1,Friday,MDES 1 Studio
-DD507,NA,DD,D1,Thursday,MDES 1 Studio
-DD507,NA,DD,D1,Tuesday,MDES 1 Studio
-DD507,NA,DD,D1,Wednesday,MDES 1 Studio
 DD507,NA,DD,F,Friday,MDES 1 Studio
-DD507,NA,DD,F,Tuesday,MDES 1 Studio
+DD507,NA,DD,C1,Thursday,MDES 1 Studio
+DD507,NA,DD,D1,Thursday,MDES 1 Studio
+DD507,NA,DD,B,Tuesday,MDES 1 Studio
+DD507,NA,DD,B1,Tuesday,MDES 1 Studio
+DD507,NA,DD,C,Tuesday,MDES 1 Studio
+DD507,NA,DD,C1,Tuesday,MDES 1 Studio
+DD507,NA,DD,B,Wednesday,MDES 1 Studio
+DD507,NA,DD,B1,Wednesday,MDES 1 Studio
+DD507,NA,DD,D,Wednesday,MDES 1 Studio
+DD507,NA,DD,D1,Wednesday,MDES 1 Studio
 DD507,NA,DD,F,Wednesday,MDES 1 Studio
-DD509,NA,DD,A1,Monday,MDES 1 Studio
 DD509,NA,DD,B,Friday,MDES 1 Studio
-DD509,NA,DD,B,Monday,MDES 1 Studio
 DD509,NA,DD,B1,Friday,MDES 1 Studio
-DD509,NA,DD,B1,Monday,MDES 1 Studio
-DD509,NA,DD,B1,Tuesday,MDES 1 Studio
-DD509,NA,DD,B1,Wednesday,MDES 1 Studio
 DD509,NA,DD,C,Friday,MDES 1 Studio
-DD509,NA,DD,C,Monday,MDES 1 Studio
-DD509,NA,DD,C,Tuesday,MDES 1 Studio
 DD509,NA,DD,C1,Friday,MDES 1 Studio
-DD509,NA,DD,C1,Monday,MDES 1 Studio
-DD509,NA,DD,C1,Tuesday,MDES 1 Studio
-DD509,NA,DD,C1,Wednesday,MDES 1 Studio
 DD509,NA,DD,D,Friday,MDES 1 Studio
-DD509,NA,DD,D,Monday,MDES 1 Studio
-DD509,NA,DD,D,Tuesday,MDES 1 Studio
 DD509,NA,DD,D1,Friday,MDES 1 Studio
+DD509,NA,DD,A1,Monday,MDES 1 Studio
+DD509,NA,DD,B,Monday,MDES 1 Studio
+DD509,NA,DD,B1,Monday,MDES 1 Studio
+DD509,NA,DD,C,Monday,MDES 1 Studio
+DD509,NA,DD,C1,Monday,MDES 1 Studio
+DD509,NA,DD,D,Monday,MDES 1 Studio
 DD509,NA,DD,D1,Monday,MDES 1 Studio
-DD509,NA,DD,D1,Tuesday,MDES 1 Studio
+DD509,NA,DD,B1,Tuesday,MDES 1 Studio
+DD509,NA,DD,C,Tuesday,MDES 1 Studio
+DD509,NA,DD,C1,Tuesday,MDES 1 Studio
+DD509,NA,DD,B1,Wednesday,MDES 1 Studio
 DD509,NA,DD,D1,Wednesday,MDES 1 Studio
 DD510,NA,DD,B,Friday,MDES 2 Studio
-DD510,NA,DD,B,Monday,MDES 2 Studio
 DD510,NA,DD,B1,Friday,MDES 2 Studio
-DD510,NA,DD,B1,Thursday,MDES 2 Studio
-DD510,NA,DD,B1,Tuesday,MDES 2 Studio
-DD510,NA,DD,B1,Wednesday,MDES 2 Studio
 DD510,NA,DD,C,Friday,MDES 2 Studio
-DD510,NA,DD,C,Monday,MDES 2 Studio
-DD510,NA,DD,C,Tuesday,MDES 2 Studio
 DD510,NA,DD,C1,Friday,MDES 2 Studio
-DD510,NA,DD,C1,Thursday,MDES 2 Studio
-DD510,NA,DD,C1,Tuesday,MDES 2 Studio
-DD510,NA,DD,C1,Wednesday,MDES 2 Studio
 DD510,NA,DD,D,Friday,MDES 2 Studio
-DD510,NA,DD,D,Monday,MDES 2 Studio
-DD510,NA,DD,D,Tuesday,MDES 2 Studio
-DD510,NA,DD,D,Wednesday,MDES 2 Studio
 DD510,NA,DD,D1,Friday,MDES 2 Studio
-DD510,NA,DD,D1,Thursday,MDES 2 Studio
-DD510,NA,DD,D1,Tuesday,MDES 2 Studio
-DD510,NA,DD,D1,Wednesday,MDES 2 Studio
 DD510,NA,DD,F,Friday,MDES 2 Studio
+DD510,NA,DD,B,Monday,MDES 2 Studio
+DD510,NA,DD,C,Monday,MDES 2 Studio
+DD510,NA,DD,D,Monday,MDES 2 Studio
 DD510,NA,DD,F,Monday,MDES 2 Studio
-DD510,NA,DD,F,Tuesday,MDES 2 Studio
+DD510,NA,DD,C1,Thursday,MDES 2 Studio
+DD510,NA,DD,D1,Thursday,MDES 2 Studio
+DD510,NA,DD,B1,Tuesday,MDES 2 Studio
+DD510,NA,DD,C,Tuesday,MDES 2 Studio
+DD510,NA,DD,C1,Tuesday,MDES 2 Studio
+DD510,NA,DD,B1,Wednesday,MDES 2 Studio
+DD510,NA,DD,D,Wednesday,MDES 2 Studio
+DD510,NA,DD,D1,Wednesday,MDES 2 Studio
 DD510,NA,DD,F,Wednesday,MDES 2 Studio
-DD512,NA,DD,A1,Monday,Media Lab
 DD512,NA,DD,B,Friday,Media Lab
-DD512,NA,DD,B,Monday,Media Lab
 DD512,NA,DD,B1,Friday,Media Lab
-DD512,NA,DD,B1,Monday,Media Lab
-DD512,NA,DD,B1,Tuesday,Media Lab
-DD512,NA,DD,B1,Wednesday,Media Lab
 DD512,NA,DD,C,Friday,Media Lab
-DD512,NA,DD,C,Monday,Media Lab
-DD512,NA,DD,C,Tuesday,Media Lab
 DD512,NA,DD,C1,Friday,Media Lab
-DD512,NA,DD,C1,Monday,Media Lab
-DD512,NA,DD,C1,Tuesday,Media Lab
-DD512,NA,DD,C1,Wednesday,Media Lab
 DD512,NA,DD,D,Friday,Media Lab
-DD512,NA,DD,D,Monday,Media Lab
-DD512,NA,DD,D,Tuesday,Media Lab
 DD512,NA,DD,D1,Friday,Media Lab
+DD512,NA,DD,A1,Monday,Media Lab
+DD512,NA,DD,B,Monday,Media Lab
+DD512,NA,DD,B1,Monday,Media Lab
+DD512,NA,DD,C,Monday,Media Lab
+DD512,NA,DD,C1,Monday,Media Lab
+DD512,NA,DD,D,Monday,Media Lab
 DD512,NA,DD,D1,Monday,Media Lab
-DD512,NA,DD,D1,Tuesday,Media Lab
+DD512,NA,DD,B1,Tuesday,Media Lab
+DD512,NA,DD,C,Tuesday,Media Lab
+DD512,NA,DD,C1,Tuesday,Media Lab
+DD512,NA,DD,B1,Wednesday,Media Lab
 DD512,NA,DD,D1,Wednesday,Media Lab
 DD514,NA,DD,B,Friday,MDES 1 Studio
-DD514,NA,DD,B,Tuesday,MDES 1 Studio
-DD514,NA,DD,B,Wednesday,MDES 1 Studio
-DD514,NA,DD,B1,Thursday,MDES 1 Studio
-DD514,NA,DD,B1,Tuesday,MDES 1 Studio
-DD514,NA,DD,B1,Wednesday,MDES 1 Studio
 DD514,NA,DD,C,Friday,MDES 1 Studio
-DD514,NA,DD,C,Tuesday,MDES 1 Studio
-DD514,NA,DD,C,Wednesday,MDES 1 Studio
 DD514,NA,DD,C1,Friday,MDES 1 Studio
-DD514,NA,DD,C1,Thursday,MDES 1 Studio
-DD514,NA,DD,C1,Tuesday,MDES 1 Studio
-DD514,NA,DD,C1,Wednesday,MDES 1 Studio
 DD514,NA,DD,D,Friday,MDES 1 Studio
-DD514,NA,DD,D,Tuesday,MDES 1 Studio
-DD514,NA,DD,D,Wednesday,MDES 1 Studio
 DD514,NA,DD,D1,Friday,MDES 1 Studio
-DD514,NA,DD,D1,Thursday,MDES 1 Studio
-DD514,NA,DD,D1,Tuesday,MDES 1 Studio
-DD514,NA,DD,D1,Wednesday,MDES 1 Studio
 DD514,NA,DD,F,Friday,MDES 1 Studio
-DD514,NA,DD,F,Tuesday,MDES 1 Studio
+DD514,NA,DD,C1,Thursday,MDES 1 Studio
+DD514,NA,DD,D1,Thursday,MDES 1 Studio
+DD514,NA,DD,B,Tuesday,MDES 1 Studio
+DD514,NA,DD,B1,Tuesday,MDES 1 Studio
+DD514,NA,DD,C,Tuesday,MDES 1 Studio
+DD514,NA,DD,C1,Tuesday,MDES 1 Studio
+DD514,NA,DD,B,Wednesday,MDES 1 Studio
+DD514,NA,DD,B1,Wednesday,MDES 1 Studio
+DD514,NA,DD,D,Wednesday,MDES 1 Studio
+DD514,NA,DD,D1,Wednesday,MDES 1 Studio
 DD514,NA,DD,F,Wednesday,MDES 1 Studio
 DD516,NA,DD,B,Friday,Ergonomics Lab
-DD516,NA,DD,B,Monday,Ergonomics Lab
 DD516,NA,DD,B1,Friday,Ergonomics Lab
-DD516,NA,DD,B1,Thursday,Ergonomics Lab
-DD516,NA,DD,B1,Tuesday,Ergonomics Lab
-DD516,NA,DD,B1,Wednesday,Ergonomics Lab
 DD516,NA,DD,C,Friday,Ergonomics Lab
-DD516,NA,DD,C,Monday,Ergonomics Lab
-DD516,NA,DD,C,Tuesday,Ergonomics Lab
 DD516,NA,DD,C1,Friday,Ergonomics Lab
-DD516,NA,DD,C1,Thursday,Ergonomics Lab
-DD516,NA,DD,C1,Tuesday,Ergonomics Lab
-DD516,NA,DD,C1,Wednesday,Ergonomics Lab
 DD516,NA,DD,D,Friday,Ergonomics Lab
-DD516,NA,DD,D,Monday,Ergonomics Lab
-DD516,NA,DD,D,Tuesday,Ergonomics Lab
-DD516,NA,DD,D,Wednesday,Ergonomics Lab
 DD516,NA,DD,D1,Friday,Ergonomics Lab
-DD516,NA,DD,D1,Thursday,Ergonomics Lab
-DD516,NA,DD,D1,Tuesday,Ergonomics Lab
-DD516,NA,DD,D1,Wednesday,Ergonomics Lab
 DD516,NA,DD,F,Friday,Ergonomics Lab
+DD516,NA,DD,B,Monday,Ergonomics Lab
+DD516,NA,DD,C,Monday,Ergonomics Lab
+DD516,NA,DD,D,Monday,Ergonomics Lab
 DD516,NA,DD,F,Monday,Ergonomics Lab
-DD516,NA,DD,F,Tuesday,Ergonomics Lab
+DD516,NA,DD,C1,Thursday,Ergonomics Lab
+DD516,NA,DD,D1,Thursday,Ergonomics Lab
+DD516,NA,DD,B1,Tuesday,Ergonomics Lab
+DD516,NA,DD,C,Tuesday,Ergonomics Lab
+DD516,NA,DD,C1,Tuesday,Ergonomics Lab
+DD516,NA,DD,B1,Wednesday,Ergonomics Lab
+DD516,NA,DD,D,Wednesday,Ergonomics Lab
+DD516,NA,DD,D1,Wednesday,Ergonomics Lab
 DD516,NA,DD,F,Wednesday,Ergonomics Lab
 DD521,NA,DD,B,Friday,SSI Lab
-DD521,NA,DD,B,Monday,SSI Lab
 DD521,NA,DD,B1,Friday,SSI Lab
-DD521,NA,DD,B1,Thursday,SSI Lab
-DD521,NA,DD,B1,Tuesday,SSI Lab
-DD521,NA,DD,B1,Wednesday,SSI Lab
 DD521,NA,DD,C,Friday,SSI Lab
-DD521,NA,DD,C,Monday,SSI Lab
-DD521,NA,DD,C,Tuesday,SSI Lab
 DD521,NA,DD,C1,Friday,SSI Lab
-DD521,NA,DD,C1,Thursday,SSI Lab
-DD521,NA,DD,C1,Tuesday,SSI Lab
-DD521,NA,DD,C1,Wednesday,SSI Lab
 DD521,NA,DD,D,Friday,SSI Lab
-DD521,NA,DD,D,Monday,SSI Lab
-DD521,NA,DD,D,Tuesday,SSI Lab
-DD521,NA,DD,D,Wednesday,SSI Lab
 DD521,NA,DD,D1,Friday,SSI Lab
-DD521,NA,DD,D1,Thursday,SSI Lab
-DD521,NA,DD,D1,Tuesday,SSI Lab
-DD521,NA,DD,D1,Wednesday,SSI Lab
 DD521,NA,DD,F,Friday,SSI Lab
+DD521,NA,DD,B,Monday,SSI Lab
+DD521,NA,DD,C,Monday,SSI Lab
+DD521,NA,DD,D,Monday,SSI Lab
 DD521,NA,DD,F,Monday,SSI Lab
-DD521,NA,DD,F,Tuesday,SSI Lab
+DD521,NA,DD,C1,Thursday,SSI Lab
+DD521,NA,DD,D1,Thursday,SSI Lab
+DD521,NA,DD,B1,Tuesday,SSI Lab
+DD521,NA,DD,C,Tuesday,SSI Lab
+DD521,NA,DD,C1,Tuesday,SSI Lab
+DD521,NA,DD,B1,Wednesday,SSI Lab
+DD521,NA,DD,D,Wednesday,SSI Lab
+DD521,NA,DD,D1,Wednesday,SSI Lab
 DD521,NA,DD,F,Wednesday,SSI Lab
-DD522,NA,DD,A1,Monday,MDES 2 Studio
 DD522,NA,DD,B,Friday,MDES 2 Studio
-DD522,NA,DD,B,Monday,MDES 2 Studio
 DD522,NA,DD,B1,Friday,MDES 2 Studio
-DD522,NA,DD,B1,Monday,MDES 2 Studio
-DD522,NA,DD,B1,Tuesday,MDES 2 Studio
-DD522,NA,DD,B1,Wednesday,MDES 2 Studio
 DD522,NA,DD,C,Friday,MDES 2 Studio
-DD522,NA,DD,C,Monday,MDES 2 Studio
-DD522,NA,DD,C,Tuesday,MDES 2 Studio
 DD522,NA,DD,C1,Friday,MDES 2 Studio
-DD522,NA,DD,C1,Monday,MDES 2 Studio
-DD522,NA,DD,C1,Tuesday,MDES 2 Studio
-DD522,NA,DD,C1,Wednesday,MDES 2 Studio
 DD522,NA,DD,D,Friday,MDES 2 Studio
-DD522,NA,DD,D,Monday,MDES 2 Studio
-DD522,NA,DD,D,Tuesday,MDES 2 Studio
 DD522,NA,DD,D1,Friday,MDES 2 Studio
+DD522,NA,DD,A1,Monday,MDES 2 Studio
+DD522,NA,DD,B,Monday,MDES 2 Studio
+DD522,NA,DD,B1,Monday,MDES 2 Studio
+DD522,NA,DD,C,Monday,MDES 2 Studio
+DD522,NA,DD,C1,Monday,MDES 2 Studio
+DD522,NA,DD,D,Monday,MDES 2 Studio
 DD522,NA,DD,D1,Monday,MDES 2 Studio
-DD522,NA,DD,D1,Tuesday,MDES 2 Studio
+DD522,NA,DD,B1,Tuesday,MDES 2 Studio
+DD522,NA,DD,C,Tuesday,MDES 2 Studio
+DD522,NA,DD,C1,Tuesday,MDES 2 Studio
+DD522,NA,DD,B1,Wednesday,MDES 2 Studio
 DD522,NA,DD,D1,Wednesday,MDES 2 Studio
-DD531,NA,DD,B,Thursday,MDES 1 Studio
 DD531,NA,DD,C,Thursday,MDES 1 Studio
 DD531,NA,DD,D,Thursday,MDES 1 Studio
-DD531,NA,DD,F,Thursday,MDES 1 Studio
 DD602,NA,DD,B,Friday,UE Lab
 DD602,NA,DD,C,Friday,UE Lab
 DD602,NA,DD,D,Friday,UE Lab
 DD602,NA,DD,F,Friday,UE Lab
-EE203,NA,EEE,A,Wednesday,2201
 EE203,NA,EEE,C,Monday,2201
 EE203,NA,EEE,C,Tuesday,2201
+EE203,NA,EEE,A,Wednesday,2201
 EE213M,NA,EEE,F,Friday,2002
 EE213M,NA,EEE,F,Monday,2002
 EE213M,NA,EEE,F,Wednesday,2002
@@ -1073,9 +963,9 @@ EE230T,NA,EEE,D,Wednesday,2201
 EE230T,NA,EEE,D,Wednesday,2202
 EE230T,NA,EEE,D,Wednesday,3101
 EE230T,NA,EEE,D,Wednesday,4101
+EE270,NA,EEE,C,Friday,2201
 EE270,NA,EEE,A,Thursday,2201
 EE270,NA,EEE,A,Tuesday,2201
-EE270,NA,EEE,C,Friday,2201
 EE322M,NA,EEE,G,Friday,2201
 EE322M,NA,EEE,G,Monday,2201
 EE322M,NA,EEE,G,Wednesday,2201
@@ -1097,21 +987,21 @@ EE360,NA,EEE,B1,Wednesday,2201
 EE385,NA,EEE,A1,Thursday,2202
 EE385,NA,EEE,A1,Tuesday,2202
 EE385,NA,EEE,A1,Wednesday,2202
-EE503,NA,EEE,A,Tuesday,3101
-EE503,NA,EEE,B,Monday,3101
 EE503,NA,EEE,D,Friday,3101
-EE525,NA,EEE,A,Tuesday,2002
-EE525,NA,EEE,B,Monday,2002
+EE503,NA,EEE,B,Monday,3101
+EE503,NA,EEE,A,Tuesday,3101
 EE525,NA,EEE,E,Friday,2002
-EE533,NA,EEE,B,Wednesday,2202
+EE525,NA,EEE,B,Monday,2002
+EE525,NA,EEE,A,Tuesday,2002
 EE533,NA,EEE,E,Friday,2202
 EE533,NA,EEE,H,Tuesday,2202
+EE533,NA,EEE,B,Wednesday,2202
+EE534,NA,EEE,F,Monday,2202
 EE534,NA,EEE,A,Tuesday,2202
 EE534,NA,EEE,E,Wednesday,2202
-EE534,NA,EEE,F,Monday,2202
-EE551,NA,EEE,A,Tuesday,4101
 EE551,NA,EEE,C,Friday,4101
 EE551,NA,EEE,E,Thursday,2202
+EE551,NA,EEE,A,Tuesday,4101
 EE561,NA,EEE,E,Friday,3101
 EE561,NA,EEE,F,Monday,3101
 EE561,NA,EEE,F,Wednesday,3101
@@ -1127,21 +1017,21 @@ EE625,NA,EEE,A1,Wednesday,3101
 EE626,NA,EEE,B,Friday,2201
 EE626,NA,EEE,C,Thursday,2201
 EE626,NA,EEE,E,Tuesday,2201
-EE631,NA,EEE,A1,Thursday,4101
 EE631,NA,EEE,D1,Friday,4101
 EE631,NA,EEE,D1,Monday,4101
+EE631,NA,EEE,A1,Thursday,4101
 EE632,NA,EEE,E1,Friday,2202
 EE632,NA,EEE,E1,Thursday,2202
 EE632,NA,EEE,E1,Wednesday,2202
 EE634,NA,EEE,C1,Friday,4101
 EE634,NA,EEE,C1,Monday,4101
 EE634,NA,EEE,C1,Tuesday,4101
-EE636,NA,EEE,B,Tuesday,2202
 EE636,NA,EEE,D,Friday,2202
 EE636,NA,EEE,D,Monday,2202
+EE636,NA,EEE,B,Tuesday,2202
 EE642,NA,EEE,F,Friday,2201
-EE642,NA,EEE,F,Wednesday,2201
 EE642,NA,EEE,H,Thursday,2201
+EE642,NA,EEE,F,Wednesday,2201
 EE645,NA,EEE,D1,Friday,3101
 EE645,NA,EEE,D1,Monday,3101
 EE645,NA,EEE,D1,Thursday,3101
@@ -1154,18 +1044,18 @@ EE647,NA,EEE,E1,Wednesday,2002
 EE648,NA,EEE,D1,Friday,2002
 EE648,NA,EEE,D1,Monday,2002
 EE648,NA,EEE,D1,Thursday,2002
+EE652,NA,EEE,D,Monday,4101
 EE652,NA,EEE,A,Thursday,2202
 EE652,NA,EEE,C,Tuesday,2202
-EE652,NA,EEE,D,Monday,4101
 EE653,NA,EEE,B1,Monday,4101
 EE653,NA,EEE,B1,Tuesday,4101
 EE653,NA,EEE,B1,Wednesday,4101
 EE657,NA,EEE,E1,Friday,L1
 EE657,NA,EEE,E1,Thursday,L1
 EE657,NA,EEE,E1,Wednesday,L1
-EE663,NA,EEE,B,Tuesday,3101
-EE663,NA,EEE,C,Thursday,2002
 EE663,NA,EEE,D,Monday,3101
+EE663,NA,EEE,C,Thursday,2002
+EE663,NA,EEE,B,Tuesday,3101
 EE664,NA,EEE,C,Friday,3202
 EE664,NA,EEE,C,Monday,3202
 EE664,NA,EEE,C,Tuesday,3202
@@ -1181,9 +1071,9 @@ EE671,NA,EEE,C,Monday,2101
 EE671,NA,EEE,C,Monday,2102
 EE671,NA,EEE,C,Tuesday,2101
 EE671,NA,EEE,C,Tuesday,2102
+EE673,NA,EEE,D1,Thursday,4101
 EE673,NA,EEE,A1,Tuesday,4101
 EE673,NA,EEE,A1,Wednesday,4101
-EE673,NA,EEE,D1,Thursday,4101
 EN671,NA,CEER,C,Friday,L1
 EN671,NA,CEER,C,Monday,L1
 EN671,NA,CEER,C,Tuesday,L1
@@ -1253,35 +1143,35 @@ HS424,NA,HSS,A,Wednesday,4G3
 HS425,NA,HSS,A,Thursday,4G4
 HS425,NA,HSS,A,Tuesday,4G4
 HS425,NA,HSS,A,Wednesday,4G4
+HS502,NA,HSS,H,Thursday,1102
 HS502,NA,HSS,B,Tuesday,1102
 HS502,NA,HSS,B,Wednesday,1102
-HS502,NA,HSS,H,Thursday,1102
 HS503,NA,HSS,C,Monday,1101
 HS503,NA,HSS,C,Tuesday,1101
 HS503,NA,HSS,F,Wednesday,1101
 HS505,NA,HSS,A,Thursday,1101
 HS505,NA,HSS,A,Tuesday,1101
 HS505,NA,HSS,A,Wednesday,1101
-HS512,NA,HSS,B1,Wednesday,1102
-HS512,NA,HSS,C1,Tuesday,1102
 HS512,NA,HSS,F,Monday,1102
+HS512,NA,HSS,C1,Tuesday,1102
+HS512,NA,HSS,B1,Wednesday,1102
 HS517,NA,HSS,E,Friday,1101
 HS517,NA,HSS,E,Thursday,1101
 HS517,NA,HSS,E,Wednesday,1101
-HS521,NA,HSS,B,Monday,1102
 HS521,NA,HSS,D,Friday,1102
+HS521,NA,HSS,B,Monday,1102
 HS521,NA,HSS,D,Thursday,1102
-HS604,NA,HSS,D,Monday,1102
 HS604,NA,HSS,F,Friday,1102
+HS604,NA,HSS,D,Monday,1102
 HS604,NA,HSS,H,Tuesday,1102
+HS621,NA,HSS,E1,Friday,1101
 HS621,NA,HSS,A,Monday,1101
 HS621,NA,HSS,D,Wednesday,1101
-HS621,NA,HSS,E1,Friday,1101
 HS622,NA,HSS,B,Friday,1102
-HS622,NA,HSS,C,Thursday,1102
 HS622,NA,HSS,D1,Monday,1102
-HS623,NA,HSS,A1,Thursday,1102
+HS622,NA,HSS,C,Thursday,1102
 HS623,NA,HSS,C,Friday,1102
+HS623,NA,HSS,A1,Thursday,1102
 HS623,NA,HSS,E,Tuesday,1102
 LS621,NA,SAB,C,Friday,L1
 LS621,NA,SAB,C,Monday,L1
@@ -1327,9 +1217,13 @@ MA351,NA,MA,B1,Wednesday,2203
 MA373,NA,MA,E1,Friday,2203
 MA373,NA,MA,E1,Thursday,2203
 MA373,NA,MA,E1,Wednesday,2203
+MA473,NA,MA,B,Friday,Common Room
 MA473,NA,MA,B,Monday,2101
+MA473,NA,MA,B,Monday,Common Room
 MA473,NA,MA,B,Tuesday,2101
+MA473,NA,MA,B,Tuesday,Common Room
 MA473,NA,MA,B,Wednesday,2101
+MA473,NA,MA,B,Wednesday,Common Room
 MA477,NA,MA,E,Friday,2203
 MA477,NA,MA,E,Thursday,2203
 MA477,NA,MA,E,Wednesday,2203
@@ -1419,10 +1313,12 @@ MA762,NA,MA,D1,Monday,1002
 MA762,NA,MA,D1,Thursday,1002
 MA762,NA,MA,D1,Wednesday,1002
 ME101,I,ME,B1,Friday,L2
+ME101,I,ME,B,Friday,L2
 ME101,I,ME,B1,Monday,L2
 ME101,I,ME,B1,Tuesday,L2
 ME101,I,ME,B1,Wednesday,L2
 ME101,II,ME,B1,Friday,L3
+ME101,II,ME,B,Friday,L3
 ME101,II,ME,B1,Monday,L3
 ME101,II,ME,B1,Tuesday,L3
 ME101,II,ME,B1,Wednesday,L3
@@ -1434,8 +1330,6 @@ ME101,IV,ME,B,Friday,L3
 ME101,IV,ME,B,Monday,L3
 ME101,IV,ME,B,Tuesday,L3
 ME101,IV,ME,B,Wednesday,L3
-ME101,I,ME,B,Friday,L2
-ME101,II,ME,B,Friday,L3
 ME221,I,ME,A,Thursday,1003
 ME221,I,ME,A,Tuesday,1003
 ME221,I,ME,A,Wednesday,1003
@@ -1461,130 +1355,130 @@ ME224,II,ME,D,Friday,1005
 ME224,II,ME,D,Monday,1005
 ME224,II,ME,D,Thursday,1005
 ME321,I,ME,A1,Monday,1003
-ME321,II,ME,A1,Monday,1005
 ME321,I,ME,A1,Thursday,1003
-ME321,II,ME,A1,Thursday,1005
 ME321,I,ME,A1,Tuesday,1003
+ME321,II,ME,A1,Monday,1005
+ME321,II,ME,A1,Thursday,1005
 ME321,II,ME,A1,Tuesday,1005
 ME321M,NA,ME,G,Friday,1003
 ME321M,NA,ME,G,Monday,1003
 ME321M,NA,ME,G,Wednesday,1003
 ME322,I,ME,B1,Monday,1003
-ME322,II,ME,B1,Monday,1005
 ME322,I,ME,B1,Tuesday,1003
+ME322,II,ME,B1,Monday,1005
 ME322,II,ME,B1,Tuesday,1005
 ME323,I,ME,D1,Monday,1003
-ME323,II,ME,D1,Monday,1005
 ME323,I,ME,D1,Thursday,1003
-ME323,II,ME,D1,Thursday,1005
 ME323,I,ME,D1,Wednesday,1003
+ME323,II,ME,D1,Monday,1005
+ME323,II,ME,D1,Thursday,1005
 ME323,II,ME,D1,Wednesday,1005
 ME324,I,ME,C1,Friday,1003
-ME324,II,ME,C1,Friday,1005
 ME324,I,ME,C1,Monday,1003
-ME324,II,ME,C1,Monday,1005
 ME324,I,ME,C1,Thursday,1003
-ME324,II,ME,C1,Thursday,1005
 ME324,I,ME,C1,Tuesday,1003
+ME324,II,ME,C1,Friday,1005
+ME324,II,ME,C1,Monday,1005
+ME324,II,ME,C1,Thursday,1005
 ME324,II,ME,C1,Tuesday,1005
 ME325,I,ME,E1,Thursday,1003
-ME325,II,ME,E1,Thursday,1005
 ME325,I,ME,E1,Tuesday,1003
-ME325,II,ME,E1,Tuesday,1005
 ME325,I,ME,E1,Wednesday,1003
+ME325,II,ME,E1,Thursday,1005
+ME325,II,ME,E1,Tuesday,1005
 ME325,II,ME,E1,Wednesday,1005
 ME421,NA,ME,B,Monday,1G1
 ME421,NA,ME,B,Tuesday,1G1
 ME421,NA,ME,B,Wednesday,1G1
+ME513,NA,ME,C,Monday,1004
 ME513,NA,ME,A,Tuesday,1004
 ME513,NA,ME,B,Wednesday,1004
-ME513,NA,ME,C,Monday,1004
+ME514,NA,ME,F,Monday,1004
 ME514,NA,ME,C,Thursday,1004
 ME514,NA,ME,E,Wednesday,1004
-ME514,NA,ME,F,Monday,1004
+ME522,NA,ME,B1,Friday,1G2
+ME522,NA,ME,E1,Friday,1G1
 ME522,NA,ME,A1,Monday,1G1
 ME522,NA,ME,A1,Monday,1G2
-ME522,NA,ME,B1,Friday,1G2
-ME522,NA,ME,B1,Tuesday,1G1
 ME522,NA,ME,C1,Thursday,1G2
-ME522,NA,ME,C1,Wednesday,1G1
 ME522,NA,ME,D1,Thursday,1G1
-ME522,NA,ME,D1,Wednesday,1G2
-ME522,NA,ME,E1,Friday,1G1
+ME522,NA,ME,B1,Tuesday,1G1
 ME522,NA,ME,E1,Tuesday,1G2
-ME532,NA,ME,C,Tuesday,1203
+ME522,NA,ME,D1,Wednesday,1G1
+ME522,NA,ME,D1,Wednesday,1G2
 ME532,NA,ME,D,Monday,1203
 ME532,NA,ME,D,Monday,1G2
 ME532,NA,ME,D,Thursday,1203
 ME532,NA,ME,D,Thursday,1G2
+ME532,NA,ME,C,Tuesday,1203
 ME532,NA,ME,H,Tuesday,1G2
 ME553,NA,ME,C1,Friday,1004
 ME553,NA,ME,D1,Thursday,1004
 ME553,NA,ME,E1,Wednesday,1004
 ME554,NA,ME,F,Friday,1203
-ME554,NA,ME,F,Wednesday,1203
 ME554,NA,ME,H,Thursday,1203
+ME554,NA,ME,F,Wednesday,1203
 ME605,NA,ME,E,Friday,1005
 ME605,NA,ME,E,Thursday,1005
 ME605,NA,ME,H,Tuesday,1005
 ME607,NA,ME,F,Friday,1003
-ME607,NA,ME,F,Wednesday,1003
 ME607,NA,ME,H,Thursday,1003
+ME607,NA,ME,F,Wednesday,1003
 ME609,NA,ME,C,Friday,1G2
 ME609,NA,ME,C,Monday,1G2
 ME609,NA,ME,C,Tuesday,1G2
+ME613,NA,ME,F,Monday,1203
 ME613,NA,ME,C,Thursday,1203
 ME613,NA,ME,E,Wednesday,1203
-ME613,NA,ME,F,Monday,1203
 ME615,NA,ME,A,Monday,1003
-ME615,NA,ME,D,Wednesday,1003
 ME615,NA,ME,E,Tuesday,1003
-ME616,NA,ME,A1,Wednesday,1004
+ME615,NA,ME,D,Wednesday,1003
 ME616,NA,ME,D1,Friday,1004
 ME616,NA,ME,E1,Thursday,1004
+ME616,NA,ME,A1,Wednesday,1004
+ME618,NA,ME,F,Monday,1003
 ME618,NA,ME,C,Thursday,1003
 ME618,NA,ME,E,Wednesday,1003
-ME618,NA,ME,F,Monday,1003
+ME619,NA,ME,F,Monday,1005
 ME619,NA,ME,C,Thursday,1005
 ME619,NA,ME,E,Wednesday,1005
-ME619,NA,ME,F,Monday,1005
 ME654,NA,ME,F,Friday,1203
-ME654,NA,ME,F,Wednesday,1203
 ME654,NA,ME,H,Thursday,1203
-ME662,NA,ME,A,Wednesday,1203
+ME654,NA,ME,F,Wednesday,1203
 ME662,NA,ME,B,Monday,1203
 ME662,NA,ME,B,Tuesday,1203
-ME665,NA,ME,A1,Wednesday,1203
+ME662,NA,ME,A,Wednesday,1203
 ME665,NA,ME,D1,Friday,1203
 ME665,NA,ME,E1,Thursday,1203
+ME665,NA,ME,A1,Wednesday,1203
 ME670,NA,ME,C1,Friday,1203
 ME670,NA,ME,D1,Thursday,1203
 ME670,NA,ME,E1,Wednesday,1203
-ME672,NA,ME,A1,Tuesday,1203
 ME672,NA,ME,E,Friday,1203
 ME672,NA,ME,E,Thursday,1203
+ME672,NA,ME,A1,Tuesday,1203
 ME680,NA,ME,F,Friday,1005
-ME680,NA,ME,F,Wednesday,1005
 ME680,NA,ME,H,Thursday,1005
+ME680,NA,ME,F,Wednesday,1005
 ME686,NA,ME,A,Monday,1004
-ME686,NA,ME,D,Wednesday,1004
 ME686,NA,ME,E,Tuesday,1004
+ME686,NA,ME,D,Wednesday,1004
 ME688,NA,ME,A,Monday,1005
-ME688,NA,ME,D,Wednesday,1005
 ME688,NA,ME,E,Tuesday,1005
-ME691,NA,ME,C,Tuesday,1004
+ME688,NA,ME,D,Wednesday,1005
 ME691,NA,ME,D,Monday,1004
 ME691,NA,ME,D,Thursday,1004
+ME691,NA,ME,C,Tuesday,1004
 ME695,NA,ME,A,Monday,1203
-ME695,NA,ME,D,Wednesday,1203
 ME695,NA,ME,E,Tuesday,1203
-PH102,I,PH,E,Tuesday,L2
+ME695,NA,ME,D,Wednesday,1203
 PH102,I,PH,E1,Friday,L2
 PH102,I,PH,E1,Thursday,L2
+PH102,I,PH,E,Tuesday,L2
 PH102,I,PH,E1,Wednesday,L2
-PH102,II,PH,E,Tuesday,L3
 PH102,II,PH,E1,Friday,L3
 PH102,II,PH,E1,Thursday,L3
+PH102,II,PH,E,Tuesday,L3
 PH102,II,PH,E1,Wednesday,L3
 PH102,III,PH,E,Friday,L2
 PH102,III,PH,E,Thursday,L2
@@ -1594,51 +1488,51 @@ PH102,IV,PH,E,Friday,L3
 PH102,IV,PH,E,Thursday,L3
 PH102,IV,PH,E,Tuesday,L3
 PH102,IV,PH,E,Wednesday,L3
-PH202,NA,PH,A,Thursday,4206
 PH202,NA,PH,D,Friday,4206
 PH202,NA,PH,D,Monday,4206
+PH202,NA,PH,A,Thursday,4206
 PH202,NA,PH,D,Wednesday,4206
-PH204,NA,PH,A,Wednesday,4206
 PH204,NA,PH,B,Monday,4206
-PH204,NA,PH,B,Tuesday,4206
 PH204,NA,PH,D,Thursday,4206
+PH204,NA,PH,B,Tuesday,4206
+PH204,NA,PH,A,Wednesday,4206
+PH206,NA,PH,C,Thursday,4206
 PH206,NA,PH,A,Tuesday,4206
 PH206,NA,PH,B,Wednesday,4206
-PH206,NA,PH,C,Thursday,4206
 PH302,NA,PH,A,Thursday,4003
 PH302,NA,PH,B,Tuesday,4003
 PH302,NA,PH,E,Wednesday,4003
 PH304,NA,PH,C,Monday,4003
-PH304,NA,PH,C,Tuesday,4003
 PH304,NA,PH,E,Thursday,4003
-PH306,NA,PH,A,Wednesday,4003
+PH304,NA,PH,C,Tuesday,4003
 PH306,NA,PH,D,Monday,4003
 PH306,NA,PH,D,Thursday,4003
+PH306,NA,PH,A,Wednesday,4003
 PH308,NA,PH,A,Tuesday,4003
 PH308,NA,PH,B,Wednesday,4003
 PH382M,NA,PH,G,Friday,4004
 PH382M,NA,PH,G,Monday,4004
 PH382M,NA,PH,G,Wednesday,4004
-PH402,NA,PH,A,Wednesday,4004
 PH402,NA,PH,C,Thursday,4004
 PH402,NA,PH,C,Tuesday,4004
+PH402,NA,PH,A,Wednesday,4004
+PH404,NA,PH,E,Friday,4004
 PH404,NA,PH,B,Monday,4004
 PH404,NA,PH,B,Tuesday,4004
-PH404,NA,PH,E,Friday,4004
 PH404,NA,PH,E,Wednesday,4004
-PH406,NA,PH,B,Wednesday,4004
 PH406,NA,PH,C,Friday,4004
 PH406,NA,PH,C,Monday,4004
 PH406,NA,PH,D,Thursday,4004
+PH406,NA,PH,B,Wednesday,4004
 PH408,NA,PH,A,Thursday,4004
 PH408,NA,PH,A,Tuesday,4004
 PH410,NA,PH,D,Friday,4004
 PH410,NA,PH,D,Monday,4004
-PH410,NA,PH,D,Wednesday,4004
 PH410,NA,PH,E,Thursday,4004
+PH410,NA,PH,D,Wednesday,4004
 PH414,NA,PH,B1,Monday,4003
-PH414,NA,PH,B1,Wednesday,4003
 PH414,NA,PH,D1,Thursday,4003
+PH414,NA,PH,B1,Wednesday,4003
 PH443,NA,PH,C,Friday,4206
 PH443,NA,PH,C,Friday,4G4
 PH443,NA,PH,C,Monday,4206
@@ -1651,58 +1545,58 @@ PH446,NA,PH,E1,Thursday,4003
 PH446,NA,PH,E1,Thursday,4005
 PH446,NA,PH,E1,Wednesday,4003
 PH446,NA,PH,E1,Wednesday,4005
-PH462,NA,PH,A1,Wednesday,4003
-PH462,NA,PH,B1,Tuesday,4003
 PH462,NA,PH,C1,Monday,4003
-PH521,NA,PH,B,Wednesday,4212
-PH521,NA,PH,C1,Tuesday,4212
+PH462,NA,PH,B1,Tuesday,4003
+PH462,NA,PH,A1,Wednesday,4003
 PH521,NA,PH,E,Friday,4212
-PH523,NA,PH,B,Tuesday,4212
+PH521,NA,PH,C1,Tuesday,4212
+PH521,NA,PH,B,Wednesday,4212
 PH523,NA,PH,D,Monday,4212
 PH523,NA,PH,E,Thursday,4212
+PH523,NA,PH,B,Tuesday,4212
 PH524,NA,PH,D,Friday,4212
 PH524,NA,PH,D,Thursday,4212
 PH524,NA,PH,E,Wednesday,4212
+PH527,NA,PH,C,Thursday,4212
 PH527,NA,PH,A,Tuesday,4212
 PH527,NA,PH,A,Wednesday,4212
-PH527,NA,PH,C,Thursday,4212
 PH531,NA,PH,A1,Thursday,4212
 PH531,NA,PH,B1,Tuesday,4212
 PH531,NA,PH,D,Wednesday,4212
-PH532,NA,PH,A,Thursday,4212
 PH532,NA,PH,C,Friday,4212
 PH532,NA,PH,C,Monday,4212
-PH543,NA,PH,C,Tuesday,4212
+PH532,NA,PH,A,Thursday,4212
 PH543,NA,PH,C1,Friday,4212
 PH543,NA,PH,E1,Thursday,4212
-PH544,NA,PH,A1,Tuesday,4212
-PH544,NA,PH,C1,Thursday,4212
+PH543,NA,PH,C,Tuesday,4212
 PH544,NA,PH,D1,Friday,4212
-PH545,NA,PH,D1,Thursday,4212
+PH544,NA,PH,C1,Thursday,4212
+PH544,NA,PH,A1,Tuesday,4212
 PH545,NA,PH,E1,Friday,4212
+PH545,NA,PH,D1,Thursday,4212
 PH545,NA,PH,E1,Tuesday,4212
-PH702,NA,PH,A1,Wednesday,4004
-PH702,NA,PH,C1,Monday,4004
 PH702,NA,PH,E1,Friday,4004
-PH703,NA,PH,A1,Tuesday,4004
+PH702,NA,PH,C1,Monday,4004
+PH702,NA,PH,A1,Wednesday,4004
 PH703,NA,PH,B1,Monday,4004
 PH703,NA,PH,C1,Thursday,4004
+PH703,NA,PH,A1,Tuesday,4004
+PH704,NA,PH,D1,Friday,4004
 PH704,NA,PH,B1,Tuesday,4004
 PH704,NA,PH,B1,Wednesday,4004
-PH704,NA,PH,D1,Friday,4004
 PH706,NA,PH,C1,Friday,4004
 PH706,NA,PH,D1,Thursday,4004
 PH706,NA,PH,E1,Wednesday,4004
-RT514,NA,CRT,B1,Tuesday,1206
 RT514,NA,CRT,H,Thursday,1206
+RT514,NA,CRT,B1,Tuesday,1206
 RT514,NA,CRT,H,Tuesday,1206
-RT515,NA,CRT,B,Wednesday,1206
 RT515,NA,CRT,D,Friday,1206
 RT515,NA,CRT,D,Monday,1206
+RT515,NA,CRT,B,Wednesday,1206
 RT517,NA,CRT,D1,Monday,1206
 RT517,NA,CRT,D1,Thursday,1206
 RT517,NA,CRT,E1,Wednesday,1206
-RT520,NA,CRT,A1,Thursday,1206
 RT520,NA,CRT,B1,Monday,1206
-RT520,NA,CRT,B1,Wednesday,1206
+RT520,NA,CRT,A1,Thursday,1206
 RT520,NA,CRT,E1,Tuesday,1206
+RT520,NA,CRT,B1,Wednesday,1206

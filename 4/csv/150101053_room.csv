@@ -1,4 +1,4 @@
-RoomNo,Location
+room,location
 1001,Core-I
 1002,Core-I
 1003,Core-I
@@ -66,15 +66,12 @@ RoomNo,Location
 4212,Core-IV
 1G1,Core-I
 1G2,Core-I
-1G3,Core-I
-1G4,Core-I
-4G1,Core-IV
-4G2,Core-IV
 4G3,Core-IV
 4G4,Core-IV
 BDES 2 Studio,Local
 BDES 3 Studio,Local
 BDES 4 Studio,Local
+Common Room,Local
 Ergonomics Lab,Local
 L1,LH
 L2,LH

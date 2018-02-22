@@ -1,380 +1,379 @@
 USE 09feb2018;
 
-INSERT INTO Course(course_id, division) VALUES('BT101', 'I');
-INSERT INTO Course(course_id, division) VALUES('BT101', 'II');
-INSERT INTO Course(course_id, division) VALUES('BT101', 'III');
-INSERT INTO Course(course_id, division) VALUES('BT101', 'IV');
-INSERT INTO Course(course_id, division) VALUES('BT202', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT205', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT208', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT302', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT305', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT306', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT308', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT401', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT502', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT504', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT601', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT604', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT607', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT609', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT613', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT616', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT618', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT629', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT630', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT632', 'NA');
-INSERT INTO Course(course_id, division) VALUES('BT637', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE201', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE205', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE206', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE220', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE222', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE304', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE307', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE308', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE309', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE311', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE402', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE504', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE505', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE510', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE514', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE524', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE525', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE533', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE552', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE555', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE556', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE564', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE570', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE583', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE584', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE594', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE595', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE606', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE607', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE608', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE612', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE614', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE615', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE616', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE623', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE628', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE643', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE646', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE648', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE649', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE652', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE661', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CE664', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH212', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH222', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH232', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH233', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH322', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH323', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH333', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH411', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH417', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH418', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH419', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH421', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH428', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH432', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH433', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH438', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH501', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH603', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH611', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH615', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH617', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH621', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH623', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH625', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH630', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH637', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH640', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CH643', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL204', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL205', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL206', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL207', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL252M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL307', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL308', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL309', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL315', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL352M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL401', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL404', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL503', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL504', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL612', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL614', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL617', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL618', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL619', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL622', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL623', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL625', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL630', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL634', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL635', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL638', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL639', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CL642', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS101', 'I');
-INSERT INTO Course(course_id, division) VALUES('CS101', 'II');
-INSERT INTO Course(course_id, division) VALUES('CS101', 'III');
-INSERT INTO Course(course_id, division) VALUES('CS101', 'IV');
-INSERT INTO Course(course_id, division) VALUES('CS203', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS204', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS206M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS222', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS242', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS344', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS346', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS348', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS350M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS501', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS503', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS525', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS526', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS549', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS561', 'NA');
-INSERT INTO Course(course_id, division) VALUES('CS666', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD111', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD112', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD113', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD202M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD211', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD212', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD213', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD214', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD215', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD216', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD220M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD311', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD312', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD313', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD314', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD315', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD316', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD320M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD411', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD413', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD497', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD505', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD506', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD507', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD509', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD510', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD512', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD514', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD516', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD521', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD522', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD531', 'NA');
-INSERT INTO Course(course_id, division) VALUES('DD602', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE203', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE213M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE221', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE230', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE230T', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE270', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE322M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE333', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE337', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE340', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE351', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE360', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE385', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE503', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE525', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE533', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE534', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE551', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE561', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE580', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE621', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE625', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE626', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE631', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE632', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE634', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE636', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE642', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE645', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE646', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE647', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE648', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE652', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE653', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE657', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE663', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE664', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE667', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE668', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE671', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EE673', 'NA');
-INSERT INTO Course(course_id, division) VALUES('EN671', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS203', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS212', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS213', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS220', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS224', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS226', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS234', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS237', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS238', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS239', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS242', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS243', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS406', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS409', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS413', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS414', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS415', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS420', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS421', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS422', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS424', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS425', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS502', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS503', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS505', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS512', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS517', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS521', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS604', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS621', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS622', 'NA');
-INSERT INTO Course(course_id, division) VALUES('HS623', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA002', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA102', 'I');
-INSERT INTO Course(course_id, division) VALUES('MA102', 'II');
-INSERT INTO Course(course_id, division) VALUES('MA102', 'III');
-INSERT INTO Course(course_id, division) VALUES('MA102', 'IV');
-INSERT INTO Course(course_id, division) VALUES('MA212M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA224', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA252', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA271', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA312M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA321', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA351', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA373', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA473', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA477', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA502', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA505', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA512', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA513', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA519', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA542', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA547', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA561', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA571', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA573', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA590', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA591', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA616', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA622', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA625', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA641', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA642', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA643', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA644', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA662', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA671', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA685', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA691', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA746', 'NA');
-INSERT INTO Course(course_id, division) VALUES('MA762', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME101', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME101', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME101', 'III');
-INSERT INTO Course(course_id, division) VALUES('ME101', 'IV');
-INSERT INTO Course(course_id, division) VALUES('ME221', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME221', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME222', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME222', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME223', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME223', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME224', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME224', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME321', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME321', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME321M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME322', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME322', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME323', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME323', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME324', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME324', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME325', 'I');
-INSERT INTO Course(course_id, division) VALUES('ME325', 'II');
-INSERT INTO Course(course_id, division) VALUES('ME421', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME513', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME514', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME522', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME532', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME553', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME554', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME605', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME607', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME613', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME615', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME616', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME618', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME619', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME654', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME662', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME665', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME670', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME672', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME680', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME686', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME688', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME691', 'NA');
-INSERT INTO Course(course_id, division) VALUES('ME695', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH102', 'I');
-INSERT INTO Course(course_id, division) VALUES('PH102', 'II');
-INSERT INTO Course(course_id, division) VALUES('PH102', 'III');
-INSERT INTO Course(course_id, division) VALUES('PH102', 'IV');
-INSERT INTO Course(course_id, division) VALUES('PH102', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH202', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH204', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH206', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH302', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH304', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH306', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH308', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH345', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH382M', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH402', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH404', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH406', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH408', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH410', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH414', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH443', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH446', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH462', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH521', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH523', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH524', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH527', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH531', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH532', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH543', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH544', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH545', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH702', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH703', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH704', 'NA');
-INSERT INTO Course(course_id, division) VALUES('PH706', 'NA');
-INSERT INTO Course(course_id, division) VALUES('RT514', 'NA');
-INSERT INTO Course(course_id, division) VALUES('RT515', 'NA');
-INSERT INTO Course(course_id, division) VALUES('RT517', 'NA');
-INSERT INTO Course(course_id, division) VALUES('RT520', 'NA');
+INSERT INTO Course(course_id, division) VALUES
+	('BT101', 'I'),
+	('BT101', 'II'),
+	('BT101', 'III'),
+	('BT101', 'IV'),
+	('BT202', 'NA'),
+	('BT205', 'NA'),
+	('BT208', 'NA'),
+	('BT302', 'NA'),
+	('BT305', 'NA'),
+	('BT306', 'NA'),
+	('BT308', 'NA'),
+	('BT401', 'NA'),
+	('BT502', 'NA'),
+	('BT504', 'NA'),
+	('BT601', 'NA'),
+	('BT604', 'NA'),
+	('BT607', 'NA'),
+	('BT609', 'NA'),
+	('BT613', 'NA'),
+	('BT616', 'NA'),
+	('BT618', 'NA'),
+	('BT629', 'NA'),
+	('BT630', 'NA'),
+	('BT632', 'NA'),
+	('BT637', 'NA'),
+	('CE201', 'NA'),
+	('CE205', 'NA'),
+	('CE206', 'NA'),
+	('CE220', 'NA'),
+	('CE222', 'NA'),
+	('CE304', 'NA'),
+	('CE307', 'NA'),
+	('CE308', 'NA'),
+	('CE309', 'NA'),
+	('CE311', 'NA'),
+	('CE402', 'NA'),
+	('CE504', 'NA'),
+	('CE505', 'NA'),
+	('CE510', 'NA'),
+	('CE514', 'NA'),
+	('CE524', 'NA'),
+	('CE525', 'NA'),
+	('CE533', 'NA'),
+	('CE552', 'NA'),
+	('CE555', 'NA'),
+	('CE556', 'NA'),
+	('CE564', 'NA'),
+	('CE570', 'NA'),
+	('CE583', 'NA'),
+	('CE584', 'NA'),
+	('CE594', 'NA'),
+	('CE595', 'NA'),
+	('CE606', 'NA'),
+	('CE607', 'NA'),
+	('CE608', 'NA'),
+	('CE612', 'NA'),
+	('CE614', 'NA'),
+	('CE615', 'NA'),
+	('CE616', 'NA'),
+	('CE623', 'NA'),
+	('CE628', 'NA'),
+	('CE643', 'NA'),
+	('CE646', 'NA'),
+	('CE648', 'NA'),
+	('CE649', 'NA'),
+	('CE652', 'NA'),
+	('CE661', 'NA'),
+	('CE664', 'NA'),
+	('CH212', 'NA'),
+	('CH222', 'NA'),
+	('CH232', 'NA'),
+	('CH233', 'NA'),
+	('CH322', 'NA'),
+	('CH323', 'NA'),
+	('CH333', 'NA'),
+	('CH411', 'NA'),
+	('CH417', 'NA'),
+	('CH418', 'NA'),
+	('CH419', 'NA'),
+	('CH421', 'NA'),
+	('CH428', 'NA'),
+	('CH432', 'NA'),
+	('CH433', 'NA'),
+	('CH438', 'NA'),
+	('CH501', 'NA'),
+	('CH603', 'NA'),
+	('CH611', 'NA'),
+	('CH615', 'NA'),
+	('CH617', 'NA'),
+	('CH621', 'NA'),
+	('CH623', 'NA'),
+	('CH625', 'NA'),
+	('CH630', 'NA'),
+	('CH637', 'NA'),
+	('CH640', 'NA'),
+	('CH643', 'NA'),
+	('CL204', 'NA'),
+	('CL205', 'NA'),
+	('CL206', 'NA'),
+	('CL207', 'NA'),
+	('CL252M', 'NA'),
+	('CL307', 'NA'),
+	('CL308', 'NA'),
+	('CL309', 'NA'),
+	('CL314', 'NA'),
+	('CL352M', 'NA'),
+	('CL401', 'NA'),
+	('CL404', 'NA'),
+	('CL503', 'NA'),
+	('CL504', 'NA'),
+	('CL612', 'NA'),
+	('CL614', 'NA'),
+	('CL617', 'NA'),
+	('CL618', 'NA'),
+	('CL619', 'NA'),
+	('CL622', 'NA'),
+	('CL623', 'NA'),
+	('CL625', 'NA'),
+	('CL630', 'NA'),
+	('CL634', 'NA'),
+	('CL635', 'NA'),
+	('CL638', 'NA'),
+	('CL639', 'NA'),
+	('CL642', 'NA'),
+	('CS101', 'I'),
+	('CS101', 'II'),
+	('CS101', 'III'),
+	('CS101', 'IV'),
+	('CS203', 'NA'),
+	('CS204', 'NA'),
+	('CS206M', 'NA'),
+	('CS222', 'NA'),
+	('CS242', 'NA'),
+	('CS344', 'NA'),
+	('CS346', 'NA'),
+	('CS348', 'NA'),
+	('CS350M', 'NA'),
+	('CS501', 'NA'),
+	('CS503', 'NA'),
+	('CS525', 'NA'),
+	('CS526', 'NA'),
+	('CS549', 'NA'),
+	('CS561', 'NA'),
+	('CS666', 'NA'),
+	('DD111', 'NA'),
+	('DD112', 'NA'),
+	('DD113', 'NA'),
+	('DD211', 'NA'),
+	('DD212', 'NA'),
+	('DD213', 'NA'),
+	('DD214', 'NA'),
+	('DD215', 'NA'),
+	('DD216', 'NA'),
+	('DD220M', 'NA'),
+	('DD311', 'NA'),
+	('DD312', 'NA'),
+	('DD313', 'NA'),
+	('DD314', 'NA'),
+	('DD315', 'NA'),
+	('DD316', 'NA'),
+	('DD320M', 'NA'),
+	('DD411', 'NA'),
+	('DD413', 'NA'),
+	('DD497', 'NA'),
+	('DD505', 'NA'),
+	('DD506', 'NA'),
+	('DD507', 'NA'),
+	('DD509', 'NA'),
+	('DD510', 'NA'),
+	('DD512', 'NA'),
+	('DD514', 'NA'),
+	('DD516', 'NA'),
+	('DD521', 'NA'),
+	('DD522', 'NA'),
+	('DD531', 'NA'),
+	('DD602', 'NA'),
+	('EE203', 'NA'),
+	('EE213M', 'NA'),
+	('EE221', 'NA'),
+	('EE230', 'NA'),
+	('EE230T', 'NA'),
+	('EE270', 'NA'),
+	('EE322M', 'NA'),
+	('EE333', 'NA'),
+	('EE337', 'NA'),
+	('EE340', 'NA'),
+	('EE351', 'NA'),
+	('EE360', 'NA'),
+	('EE385', 'NA'),
+	('EE503', 'NA'),
+	('EE525', 'NA'),
+	('EE533', 'NA'),
+	('EE534', 'NA'),
+	('EE551', 'NA'),
+	('EE561', 'NA'),
+	('EE580', 'NA'),
+	('EE621', 'NA'),
+	('EE625', 'NA'),
+	('EE626', 'NA'),
+	('EE631', 'NA'),
+	('EE632', 'NA'),
+	('EE634', 'NA'),
+	('EE636', 'NA'),
+	('EE642', 'NA'),
+	('EE645', 'NA'),
+	('EE646', 'NA'),
+	('EE647', 'NA'),
+	('EE648', 'NA'),
+	('EE652', 'NA'),
+	('EE653', 'NA'),
+	('EE657', 'NA'),
+	('EE663', 'NA'),
+	('EE664', 'NA'),
+	('EE667', 'NA'),
+	('EE668', 'NA'),
+	('EE671', 'NA'),
+	('EE673', 'NA'),
+	('EN671', 'NA'),
+	('HS203', 'NA'),
+	('HS212', 'NA'),
+	('HS213', 'NA'),
+	('HS220', 'NA'),
+	('HS224', 'NA'),
+	('HS226', 'NA'),
+	('HS234', 'NA'),
+	('HS237', 'NA'),
+	('HS238', 'NA'),
+	('HS239', 'NA'),
+	('HS242', 'NA'),
+	('HS243', 'NA'),
+	('HS406', 'NA'),
+	('HS409', 'NA'),
+	('HS413', 'NA'),
+	('HS414', 'NA'),
+	('HS415', 'NA'),
+	('HS420', 'NA'),
+	('HS421', 'NA'),
+	('HS422', 'NA'),
+	('HS424', 'NA'),
+	('HS425', 'NA'),
+	('HS502', 'NA'),
+	('HS503', 'NA'),
+	('HS505', 'NA'),
+	('HS512', 'NA'),
+	('HS517', 'NA'),
+	('HS521', 'NA'),
+	('HS604', 'NA'),
+	('HS621', 'NA'),
+	('HS622', 'NA'),
+	('HS623', 'NA'),
+	('LS621', 'NA'),
+	('MA102', 'I'),
+	('MA102', 'II'),
+	('MA102', 'III'),
+	('MA102', 'IV'),
+	('MA212M', 'NA'),
+	('MA224', 'NA'),
+	('MA252', 'NA'),
+	('MA271', 'NA'),
+	('MA312M', 'NA'),
+	('MA321', 'NA'),
+	('MA351', 'NA'),
+	('MA373', 'NA'),
+	('MA473', 'NA'),
+	('MA477', 'NA'),
+	('MA502', 'NA'),
+	('MA505', 'NA'),
+	('MA512', 'NA'),
+	('MA513', 'NA'),
+	('MA519', 'NA'),
+	('MA542', 'NA'),
+	('MA547', 'NA'),
+	('MA561', 'NA'),
+	('MA571', 'NA'),
+	('MA573', 'NA'),
+	('MA590', 'NA'),
+	('MA591', 'NA'),
+	('MA616', 'NA'),
+	('MA622', 'NA'),
+	('MA625', 'NA'),
+	('MA641', 'NA'),
+	('MA642', 'NA'),
+	('MA643', 'NA'),
+	('MA644', 'NA'),
+	('MA662', 'NA'),
+	('MA671', 'NA'),
+	('MA685', 'NA'),
+	('MA691', 'NA'),
+	('MA746', 'NA'),
+	('MA762', 'NA'),
+	('ME101', 'I'),
+	('ME101', 'II'),
+	('ME101', 'III'),
+	('ME101', 'IV'),
+	('ME221', 'I'),
+	('ME221', 'II'),
+	('ME222', 'I'),
+	('ME222', 'II'),
+	('ME223', 'I'),
+	('ME223', 'II'),
+	('ME224', 'I'),
+	('ME224', 'II'),
+	('ME321', 'I'),
+	('ME321', 'II'),
+	('ME321M', 'NA'),
+	('ME322', 'I'),
+	('ME322', 'II'),
+	('ME323', 'I'),
+	('ME323', 'II'),
+	('ME324', 'I'),
+	('ME324', 'II'),
+	('ME325', 'I'),
+	('ME325', 'II'),
+	('ME421', 'NA'),
+	('ME513', 'NA'),
+	('ME514', 'NA'),
+	('ME522', 'NA'),
+	('ME532', 'NA'),
+	('ME553', 'NA'),
+	('ME554', 'NA'),
+	('ME605', 'NA'),
+	('ME607', 'NA'),
+	('ME609', 'NA'),
+	('ME613', 'NA'),
+	('ME615', 'NA'),
+	('ME616', 'NA'),
+	('ME618', 'NA'),
+	('ME619', 'NA'),
+	('ME654', 'NA'),
+	('ME662', 'NA'),
+	('ME665', 'NA'),
+	('ME670', 'NA'),
+	('ME672', 'NA'),
+	('ME680', 'NA'),
+	('ME686', 'NA'),
+	('ME688', 'NA'),
+	('ME691', 'NA'),
+	('ME695', 'NA'),
+	('PH102', 'I'),
+	('PH102', 'II'),
+	('PH102', 'III'),
+	('PH102', 'IV'),
+	('PH202', 'NA'),
+	('PH204', 'NA'),
+	('PH206', 'NA'),
+	('PH302', 'NA'),
+	('PH304', 'NA'),
+	('PH306', 'NA'),
+	('PH308', 'NA'),
+	('PH382M', 'NA'),
+	('PH402', 'NA'),
+	('PH404', 'NA'),
+	('PH406', 'NA'),
+	('PH408', 'NA'),
+	('PH410', 'NA'),
+	('PH414', 'NA'),
+	('PH443', 'NA'),
+	('PH446', 'NA'),
+	('PH462', 'NA'),
+	('PH521', 'NA'),
+	('PH523', 'NA'),
+	('PH524', 'NA'),
+	('PH527', 'NA'),
+	('PH531', 'NA'),
+	('PH532', 'NA'),
+	('PH543', 'NA'),
+	('PH544', 'NA'),
+	('PH545', 'NA'),
+	('PH702', 'NA'),
+	('PH703', 'NA'),
+	('PH704', 'NA'),
+	('PH706', 'NA'),
+	('RT514', 'NA'),
+	('RT515', 'NA'),
+	('RT517', 'NA'),
+	('RT520', 'NA');

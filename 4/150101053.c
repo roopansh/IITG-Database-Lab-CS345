@@ -43,10 +43,14 @@ void populateCourses(){
 	}
 
 	fprintf(sqlFile, "USE %s;\n\n", DATABASE_NAME);
+	fprintf(sqlFile, "%s\n", "INSERT INTO Course(course_id, division) VALUES");
 	fscanf(fp, "%[^,], %[^\n]\n", courseID, division);
+	fscanf(fp, "%[^,], %[^\n]\n", courseID, division);
+	fprintf(sqlFile, "\t('%s', '%s')", courseID, division);
 	while(fscanf(fp, "%[^,], %[^\n]\n", courseID, division) != -1){
-		fprintf(sqlFile, "INSERT INTO Course(course_id, division) VALUES('%s', '%s');\n", courseID, division);
+		fprintf(sqlFile, ",\n\t('%s', '%s')", courseID, division);
 	}
+	fprintf(sqlFile, ";\n");
 
 	fclose(fp);
 	fclose(sqlFile);
@@ -77,10 +81,14 @@ void populateDepartment(){
 	}
 
 	fprintf(sqlFile, "USE %s;\n\n", DATABASE_NAME);
+	fprintf(sqlFile, "%s\n", "INSERT INTO Department(department_id, name) VALUES");
 	fscanf(fp, "%[^,], %[^\n]\n", deptID, name);
+	fscanf(fp, "%[^,], %[^\n]\n", deptID, name);
+	fprintf(sqlFile, "\t('%s', '%s')", deptID, name);
 	while(fscanf(fp, "%[^,], %[^\n]\n", deptID, name) != -1){
-		fprintf(sqlFile, "INSERT INTO Department(department_id, name) VALUES('%s', '%s');\n", deptID, name);
+		fprintf(sqlFile, ",\n\t('%s', '%s')", deptID, name);
 	}
+	fprintf(sqlFile, ";\n");
 
 	fclose(fp);
 	fclose(sqlFile);
@@ -111,10 +119,14 @@ void populateSlot(){
 	}
 
 	fprintf(sqlFile, "USE %s;\n\n", DATABASE_NAME);
+	fprintf(sqlFile, "%s\n", "INSERT INTO Slot(letter, day, start_time, end_time) VALUES");
 	fscanf(fp, "%[^,], %[^,], %[^,], %[^\n]\n", letter, day, starttime, endtime);
+	fscanf(fp, "%[^,], %[^,], %[^,], %[^\n]\n", letter, day, starttime, endtime);
+	fprintf(sqlFile, "\t('%s', '%s', '%s', '%s')", letter, day, starttime, endtime);
 	while(fscanf(fp, "%[^,], %[^,], %[^,], %[^\n]\n", letter, day, starttime, endtime) != -1){
-		fprintf(sqlFile, "INSERT INTO Slot(letter, day, start_time, end_time) VALUES('%s', '%s', '%s', '%s');\n", letter, day, starttime, endtime);
+		fprintf(sqlFile, ",\n\t('%s', '%s', '%s', '%s')", letter, day, starttime, endtime);
 	}
+	fprintf(sqlFile, ";\n");
 
 	fclose(fp);
 	fclose(sqlFile);
@@ -145,11 +157,15 @@ void populateRoom(){
 	}
 
 	fprintf(sqlFile, "USE %s;\n\n", DATABASE_NAME);
+	fprintf(sqlFile, "%s\n", "INSERT INTO Room(room_number, location) VALUES");
 
 	fscanf(fp, "%[^,], %[^\n]\n", room_number, location);
+	fscanf(fp, "%[^,], %[^\n]\n", room_number, location);
+	fprintf(sqlFile, "\t('%s', '%s')", room_number, location);
 	while(fscanf(fp, "%[^,], %[^\n]\n", room_number, location) != -1){
-		fprintf(sqlFile, "INSERT INTO Room(room_number, location) VALUES('%s', '%s');\n", room_number, location);
+		fprintf(sqlFile, ",\n\t('%s', '%s')", room_number, location);
 	}
+	fprintf(sqlFile, ";\n");
 
 	fclose(fp);
 	fclose(sqlFile);
@@ -181,10 +197,14 @@ void populateSchedulein(){
 	}
 
 	fprintf(sqlFile, "USE %s;\n\n", DATABASE_NAME);
+	fprintf(sqlFile, "%s\n", "INSERT INTO ScheduledIn(course_id, course_division, department, slot_letter, slot_day, room) VALUES");
 	fscanf(fp, "%[^,], %[^,], %[^,], %[^,], %[^,], %[^\n]\n", course_id, course_division, department, slot_letter, slot_day, room);
+	fscanf(fp, "%[^,], %[^,], %[^,], %[^,], %[^,], %[^\n]\n", course_id, course_division, department, slot_letter, slot_day, room);
+	fprintf(sqlFile, "\t('%s', '%s', '%s', '%s', '%s', '%s')", course_id, course_division, department, slot_letter, slot_day, room);
 	while(fscanf(fp, "%[^,], %[^,], %[^,], %[^,], %[^,], %[^\n]\n", course_id, course_division, department, slot_letter, slot_day, room) != -1){
-		fprintf(sqlFile, "INSERT INTO ScheduledIn(course_id, course_division, department, slot_letter, slot_day, room) VALUES('%s', '%s', '%s', '%s', '%s', '%s');\n", course_id, course_division, department, slot_letter, slot_day, room);
+		fprintf(sqlFile, ",\n\t('%s', '%s', '%s', '%s', '%s', '%s')", course_id, course_division, department, slot_letter, slot_day, room);
 	}
+	fprintf(sqlFile, ";\n");
 
 	fclose(fp);
 	fclose(sqlFile);
